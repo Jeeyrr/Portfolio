@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh;
+    height: 200vh;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(85, 1, 153, 0.7)),
                 url('images/giphy.gif') center/cover fixed;
     font-family: Arial, sans-serif;
@@ -25,15 +25,15 @@ body {
 .nav-link {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #b356f1;
     color: white;
-    border-radius: 5px;
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-link:hover {
-    background-color: #942929;
+    background-color: #b356f1;
     transform: translateY(-3px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }

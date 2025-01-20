@@ -25,15 +25,15 @@ body {
 .nav-link {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #b356f1;
     color: white;
-    border-radius: 5px;
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-link:hover {
-    background-color: #942929;
+    background-color: #b356f1;
     transform: translateY(-3px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
@@ -202,7 +202,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 14%;
+    margin-top: 8%;
+    margin-bottom: 10%;
     width: 100%;
 }
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
@@ -277,4 +278,30 @@ h3 {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
+}
+.hidden {
+    display: none;
+}
+
+.bouton-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+    margin-top: 10%;
+}
+
+#about-me-btn {
+    background-color: #8a2be2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s;
+}
+
+#about-me-btn:hover {
+    background-color: #7a1db8;
 }
