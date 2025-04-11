@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    function extractDate(text) {
+    function extractDate(text) { // chatgpt
         const match = text.match(/Date\s:\s(\d{2}\/\d{2}\/\d{4})/);
         if (match) {
             const [day, month, year] = match[1].split("/").map(Number);
@@ -67,12 +67,28 @@ document.addEventListener("DOMContentLoaded", () => {
         return new Date();
     }
 
-    function extractNote(text) {
+    function extractNote(text) { //chatgpt
         const match = text.match(/Note\s:\s(\d+)/);
         return match ? parseInt(match[1]) : 0;
     }
 
-    function updateCards() {
+    function updateCards() { //chatgpt
         cards.forEach(card => cardsContainer.appendChild(card));
     }
 });
+function openModal() {
+    document.getElementById('legalModal').style.display = 'block';
+}
+
+function closeModal() {
+    document.getElementById('legalModal').style.display = 'none';
+}
+
+// Ferme la modal si on clique en dehors
+window.onclick = function(event) {
+    const modal = document.getElementById('legalModal');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+}
+
