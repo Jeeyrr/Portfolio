@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Jeyron - Réalisations</title>
     <link rel="stylesheet" href="realisation.css">
-    <script src="index.js" defer></script>
+    <script src="realisation.js" defer></script>
 </head>
 
 <body>
@@ -20,127 +19,99 @@
         </div>
     </div>
 
-
     <div class="realisation-title">
         <h1>Mes Réalisations</h1>
+        <div class="filtre-btns">
+            <button class="filtre" data-filtre="formation">Réalisation Formation</button>
+            <button class="filtre" data-filtre="pro1">Réalisation professionnelle 1ère année</button>
+            <button class="filtre" data-filtre="pro2">Réalisation professionnelle 2ème année</button>
+        </div>
     </div>
 
+    <!-- ✅ Conteneur unique pour les cartes -->
     <div class="realisation-container">
-        <div class="realisation-card">
-            <img src="images/textadventures.png" alt="Projet 1">
-            <h3>TextAdventures</h3>
-            <p>Projet effectué à l'école <br> Terminé ! <br> Durée : 2 semaines </p>
+        <div class="realisation-card formation">
+            <img src="images/epi.png" alt="Projet 1">
+            <h3>GestEPI</h3>
+            <p>Terminé ! <br> Date : 01/02/2025 au 15/04/2025 </p>
             <button class="btn-detail" data-modal="modal1">Voir plus</button>
         </div>
-        <div class="realisation-card">
-            <img src="images/excel_blurred.png" alt="Projet 2">
-            <h3>Excel automatisé pour le suivi des dates de vérification des logiciels informatiques</h3>
-            <p>Projet effectué en entreprise <br> Terminé ! <br> Durée : 1 semaine </p>
+
+        <div class="realisation-card pro1" style="display: none;">
+            <img src="images/ticket it.png" alt="Projet 2">
+            <h3>Ticketing IT</h3>
+            <p>En continu <br> Date : 10/2023 - Maintenant </p>
             <button class="btn-detail" data-modal="modal2">Voir plus</button>
         </div>
-        <div class="realisation-card">
-            <img src="images/apifootball.png" alt="Projet 3">
+
+        <div class="realisation-card formation">
+            <img src="images/api.png" alt="Projet 3">
             <h3>Projet API : Ville Lumière</h3>
-            <p>Projet effectué à l'école <br> Terminé ! <br> Date : 02/09/2024 au 18/12/2023</p>
+            <p>Terminé ! <br> Date : 02/09/2024 au 18/12/2023</p>
             <button class="btn-detail" data-modal="modal3">Voir plus</button>
         </div>
-</div>
-<div class="realisation-container">
-    <div class="realisation-card">
-        <img src="images/apifootball.png" alt="Projet 3">
-        <h3>API Football</h3>
-        <p>Projet effectué à l'école <br> En cours...</p>
-        <button class="btn-detail" data-modal="modal3">Voir plus</button>
-</div>
-<div class="realisation-card">
-    <img src="images/apifootball.png" alt="Projet 3">
-    <h3>API Football</h3>
-    <p>Projet effectué à l'école <br> En cours...</p>
-    <button class="btn-detail" data-modal="modal3">Voir plus</button>
-</div>
-<div class="realisation-card">
-    <img src="images/apifootball.png" alt="Projet 3">
-    <h3>API Football</h3>
-    <p>Projet effectué à l'école <br> En cours...</p>
-    <button class="btn-detail" data-modal="modal3">Voir plus</button>
-</div>
-</div>
+
+        <div class="realisation-card formation">
+            <img src="images/portfolioo.png" alt="Projet 4">
+            <h3>Portfolio</h3>
+            <p>Terminé ! <br> Date : 01/12/2024 au 16/04/2025</p>
+            <button class="btn-detail" data-modal="modal3">Voir plus</button>
+        </div>
+
+        <div class="realisation-card pro2" style="display: none;">
+            <img src="images/ticket it.png" alt="Projet 2">
+            <h3>Ticketing IT</h3>
+            <p>En continu <br> Date : 10/2023 - Maintenant </p>
+            <button class="btn-detail" data-modal="modal2">Voir plus</button>
+        </div>
+
+        <div class="realisation-card pro2" style="display: none;">
+            <img src="images/acces uti.png" alt="Projet 7">
+            <h3>Gestion des accès utilisateurs logiciels pharmaceutique</h3>
+            <p>En continu <br> Date : 11/2024 - Maintenant </p>
+            <button class="btn-detail" data-modal="modal2">Voir plus</button>
+        </div>
+
+        <div class="realisation-card pro1" style="display: none;">
+            <img src="images/acces uti.png" alt="Projet 7">
+            <h3>Gestion des accès utilisateurs logiciels pharmaceutique</h3>
+            <p>En continu <br> Date : 11/2024 - Maintenant </p>
+            <button class="btn-detail" data-modal="modal2">Voir plus</button>
+        </div>
+
+        <div class="realisation-card pro2" style="display: none;">
+            <img src="images/pa.png" alt="Projet 7">
+            <h3>Notification Email lors d'un ajout Ticket IT automatisé</h3>
+            <p>Terminé !<br> Date : 24/03/2025 au 28/03/2025 </p>
+            <button class="btn-detail" data-modal="modal2">Voir plus</button>
+        </div>
+
+    </div>
+
+    <!-- MODALES -->
 
     <div id="modal1" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>TextAdventures</h2>
-            <p><strong>Description :</strong> TextAdventure est un jeu narratif interactif développé en Python. Le
-                joueur incarne un personnage évoluant dans un univers fictif et prend des décisions influençant
-                l'histoire.</p>
-
-            <h2>Caractéristiques principales :</h2>
-            <ul>
-                <li>Création de personnage personnalisée (nom, âge, village).</li>
-                <li>Système de combat et progression avec badges à gagner.</li>
-                <li>Exploration libre de différents lieux (classe, hall, cafétéria, etc.).</li>
-                <li>Gestion de l'inventaire (objets et ressources).</li>
-            </ul>
-
-            <h2>Défis rencontrés :</h2>
-            <ul>
-                <li>Gestion des interactions et décisions dans le jeu.</li>
-                <li>Implémentation d’un système de combat dynamique.</li>
-            </ul>
-            <h3>Visuel du jeu :</h3>
-            <div class="modal-content-image">
-                <img src="images/textadventure.png">
-            </div>
+            <p><strong>Description :</strong> TextAdventure est un jeu narratif interactif développé en Python...</p>
         </div>
     </div>
+
     <div id="modal2" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <h2>Excel automatisé pour le suivi des dates de vérification des logiciels informatiques</h2>
-            <p><strong>Description :</strong> Ce Excel est conçu pour automatiser et organiser le suivi des dates
-                de vérification des logiciels informatiques utilisés au sein de mon entreprise. Il permet une gestion
-                centralisée et simplifiée des informations critiques relatives aux logiciels et à leur cycle de
-                validation.</p>
-
-            <h2>Caractéristiques principales :</h2>
-            <ul>
-                <li>Liste complète des logiciels avec leur catégorie, criticité et périodicité des vérifications.</li>
-                <li>Suivi automatisé des dates de dernière et prochaine vérification.</li>
-                <li>Mise en évidence des éléments critiques grâce à des codes couleur (vert, jaune, rouge).</li>
-                <li>Possibilité de filtrer ou rechercher par service, logiciel ou date.</li>
-                <li>Interface intuitive adaptée aux besoins des équipes de maintenance et qualité.</li>
-            </ul>
-
-            <h2>Défis rencontrés :</h2>
-            <ul>
-                <li>Optimisation des formules Excel pour un calcul automatisé précis.</li>
-                <li>Création de tableaux dynamiques pour une visualisation claire des données.</li>
-                <li>Prise en compte des besoins spécifiques en matière de criticité et périodicité des vérifications.
-                </li>
-            </ul>
+            <h2>Excel automatisé pour le suivi des dates...</h2>
+            <p><strong>Description :</strong> Ce Excel est conçu pour automatiser...</p>
         </div>
     </div>
+
     <div id="modal3" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>API Football</h2>
-            <p><strong>Description :</strong> Ce projet consiste à créer une application web avec Django utilisant une
-                API de football. L'application permet de consulter des données en temps réel sur les matchs, équipes et
-                joueurs, tout en proposant des fonctionnalités personnalisées pour les utilisateurs grâce à une base de
-                données interne.</p>
-
-            <h2>Caractéristiques principales :</h2>
-            <ul>
-                <li>Affichage des données de l’API (scores, classements, matchs, etc.).</li>
-                <li>Authentification et gestion des utilisateurs (comptes, préférences).</li>
-            </ul>
-
-            <h2>Défis rencontrés :</h2>
-            <ul>
-                <li>Développement d’un site web fonctionnel et agréable.</li>
-            </ul>
+            <p><strong>Description :</strong> Ce projet consiste à créer une application web avec Django...</p>
         </div>
     </div>
 </body>
-
 </html>

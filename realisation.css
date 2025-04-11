@@ -40,12 +40,13 @@ body {
 
 .realisation-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;         /* <-- clé pour éviter les trous */
+    justify-content: center;
     gap: 20px;
     padding: 20px;
     margin: 20px;
-    margin-top: 1%;
 }
+
 
 .realisation-card {
     background:  #d5a6f7;
@@ -159,4 +160,32 @@ body {
 .realisation-title h1 {
     font-size: 2.5em;
     font-weight: bold;
+}
+.filtre-btns {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.filtre-btns button {
+    margin: 5px 10px;
+    padding: 10px 20px;
+    background-color: #b356f1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.filtre-btns button:hover {
+    background-color: #942929;
+    transform: translateY(-2px);
+}
+
+.filtre-btns button.active {
+    background-color: #f1bfff;
+    color: #4a004a;
+    box-shadow: 0 0 10px #f1bfff;
 }
