@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const modals = document.querySelectorAll(".modal");
     const closeButtons = document.querySelectorAll(".modal .close");
 
-    // Gestion des modales
+    // modales
     buttons.forEach((button) => {
         button.addEventListener("click", () => {
             const modalId = button.getAttribute("data-modal");
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Gestion des filtres de réalisation
+    //filtres de réalisation
     const filtreButtons = document.querySelectorAll(".filtre");
     const cards = document.querySelectorAll(".realisation-card");
 
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
-// Ajout d'une classe "active" au bouton cliqué
+// Ajout d'une classe active au bouton cliqué
 filtreButtons.forEach(button => {
     button.addEventListener("click", () => {
         // Retire la classe active de tous les boutons
