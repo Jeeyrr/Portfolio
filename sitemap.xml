@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://portfolio-jeyron-jeyaraj.vercel.app/</loc>
-  </url>
-  <url>
-    <loc>https://portfolio-jeyron-jeyaraj.vercel.app/index.html</loc>
-  </url>
-  <url>
-    <loc>https://portfolio-jeyron-jeyaraj.vercel.app/entreprise.html</loc>
-  </url>
-  <url>
-    <loc>https://portfolio-jeyron-jeyaraj.vercel.app/realisation.html</loc>
-  </url>
-  <url>
-    <loc>https://portfolio-jeyron-jeyaraj.vercel.app/veille.html</loc>
-  </url>
-  <url>
-    <loc>https://portfolio-jeyron-jeyaraj.vercel.app/bilan.html</loc>
-  </url>
-
+  <url><loc>https://portfolio-jeyron-jeyaraj.vercel.app/</loc></url>
+  <url><loc>https://portfolio-jeyron-jeyaraj.vercel.app/index.html</loc></url>
+  <url><loc>https://portfolio-jeyron-jeyaraj.vercel.app/entreprise.html</loc></url>
+  <url><loc>https://portfolio-jeyron-jeyaraj.vercel.app/realisation.html</loc></url>
+  <url><loc>https://portfolio-jeyron-jeyaraj.vercel.app/veille.html</loc></url>
+  <url><loc>https://portfolio-jeyron-jeyaraj.vercel.app/bilan.html</loc></url>
 </urlset>
