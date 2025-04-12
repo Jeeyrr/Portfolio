@@ -1,89 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-    <title>Portfolio de Jeyron - Bilan</title>
-    <link rel="stylesheet" href="bilan.css">
-    <script src="bilan.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bilan BTS SIO | Portfolio de Jeyron</title>
+  <meta name="description" content="Bilan personnel et professionnel de Jeyron Jeyaraj à l'issue de ses deux années de BTS SIO en alternance.">
+  <link rel="stylesheet" href="bilan.css">
+  <script src="bilan.js" defer></script>
 </head>
 
 <body>
-    <div class="header">
-        <div class="liens">
-            <a href="index.html" class="nav-link">Accueil</a>
-            <a href="entreprise.html" class="nav-link">Entreprise</a>
-            <a href="realisation.html" class="nav-link">Réalisations</a>
-            <a href="veille.html" class="nav-link">Veille</a>
-            <a href="bilan.html" class="nav-link">Bilan</a>
+  <header class="header">
+    <nav class="liens" aria-label="Navigation principale">
+      <a href="index.html" class="nav-link">Accueil</a>
+      <a href="entreprise.html" class="nav-link">Entreprise</a>
+      <a href="realisation.html" class="nav-link">Réalisations</a>
+      <a href="veille.html" class="nav-link">Veille</a>
+      <a href="bilan.html" class="nav-link">Bilan</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="bilan-intro">
+      <h1 class="bilan-title">Bilan</h1>
+    </section>
+
+    <section class="bilan-groupe">
+      <article class="bilan-ligne">
+        <div class="bilan-texte">
+          <p>
+            Durant ces deux années, j'ai eu beaucoup de mal à me concentrer sur le BTS à cause de nombreux changements, problèmes externes,
+            et de mon lancement dans un business. J'ai essayé tant bien que mal de rester concentré afin d'obtenir ce diplôme.
+            J'ai forcément beaucoup de regrets, car j'ai dû me battre pour obtenir ce BTS alors que, si j'avais été assidu dès le début, cela aurait été bien plus simple.
+          </p>
         </div>
+        <h2 class="bilan-title2">Retour sur mes 2 ans dans leur globalité</h2>
+      </article>
+
+      <article class="bilan-ligne">
+        <h2 class="bilan-title2">Qu’est-ce que j’ai appris ?</h2>
+        <div class="bilan-texte">
+          <p>
+            J'ai beaucoup appris, surtout en code, vu que je n'en avais jamais fait avant. J'ai trouvé ça super intéressant, surtout certains langages.
+            Le code, c'est super large : il y a plein de choses à découvrir. En travaillant en groupe, j'ai compris qu'il faut vraiment bien communiquer.
+            J’ai aussi découvert que je n’aime pas du tout le droit, ni la cybersécurité.
+          </p>
+        </div>
+      </article>
+
+      <article class="bilan-ligne">
+        <div class="bilan-texte">
+          <p>
+            J’ai vraiment apprécié travailler sur le développement web, notamment avec HTML, CSS et JavaScript.
+            On a eu des profs super, mais à cause de mon manque d’assiduité, j’ai pas donné une bonne image de moi.
+            Ce que j’ai moins aimé, c’est qu’on a vu trop de langages en peu de temps, ce qui m’a fait décrocher.
+          </p>
+        </div>
+        <h2 class="bilan-title2">Ce que j'ai aimé / pas aimé</h2>
+      </article>
+
+      <article class="bilan-ligne">
+        <h2 class="bilan-title2">Que ferais-je différemment ?</h2>
+        <div class="bilan-texte">
+          <p>
+            J'aurais été plus assidu, plus concentré en cours, et j’aurais évité autant que possible les distractions et problèmes extérieurs.
+          </p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">Jeyron Jeyaraj © 2025</div>
+      <button class="footer-legal-btn" onclick="openModal()">Mentions légales</button>
     </div>
+  </footer>
 
-    <h1 class="bilan-title">Bilan</h1>
-
-    <div class="bilan-groupe">
-        <div class="bilan-ligne">
-            <div class="bilan-texte">
-                Durant ces deux années, j'ai eu beaucoup de mal à me concentrer sur le BTS à cause de nombreux changements, problèmes externes,
-                et de mon lancement dans un business. <br>J'ai essayé tant bien que mal de rester concentré afin d'obtenir ce diplôme.<br>
-                J'ai forcément beaucoup de regrets, car j'ai dû me battre pour obtenir ce BTS alors que, si j'avais été assidu dès le début, cela aurait été bien plus simple.
-            </div>
-            <div class="bilan-title2">Retour sur mes 2 ans dans leur globalité</div>
-        </div>
-
-        <div class="bilan-ligne">
-            <div class="bilan-title2">Qu’est ce que j'ai appris ?</div>
-            <div class="bilan-texte">
-                J'ai beaucoup appris, surtout en code, vu que j'en avais jamais fait avant. <br>J'ai trouvé ça super intéressant, surtout certains langages que j'aime bien.<br>
-                Le code, c'est super large : il y a plein de choses à découvrir et plein de façons de l’apprécier.
-                En travaillant en groupe, j'ai compris qu'il faut vraiment bien communiquer, encore plus que dans d'autres matières.<br>
-                J’ai aussi découvert que je n’aime pas du tout le droit, ni la cybersécurité.
-            </div>
-        </div>
-
-        <div class="bilan-ligne">
-            <div class="bilan-texte">
-                J’ai vraiment apprécié travailler sur le développement web, notamment avec HTML, CSS et JavaScript.
-                On a eu des profs super, mais à cause de mon manque d’assiduité, j’ai pas donné une bonne image de moi.
-                Ce que j’ai moins aimé, c’est qu’on a vu trop de langages en peu de temps, enchaînés les uns après les autres.
-                Ça m’a un peu perdu et m’a fait décrocher des cours.
-            </div>
-            <div class="bilan-title2">Qu’est ce que j'ai aimé / pas aimé ?</div>
-        </div>
-
-        <div class="bilan-ligne">
-            <div class="bilan-title2">Que ferai-je différemment ?</div>
-            <div class="bilan-texte">
-                J'aurais été plus assidue, plus concentré en cours et si je pouvais, ne pas avoir de changements ni de problemes personnelle.
-            </div>
-        </div>
+  <!-- Modal -->
+  <div id="legalModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>Mentions légales</h2>
+      <p><strong>Nom :</strong> Jeyron Jeyaraj</p>
+      <p><strong>Hébergement :</strong> Ce site est hébergé par Vercel</p>
+      <p><strong>Contenus :</strong> Ce site est un projet d’études. Les textes et images sont utilisés à des fins non commerciales.</p>
+      <p><strong>Contact :</strong> jeyronjyj@gmail.com</p>
     </div>
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-left">Jeyron Jeyaraj © 2025</div>
-            <button class="footer-legal-btn" onclick="openModal()">Mentions légales</button>
-        </div>
-    </footer>
-    
-    <!-- Modal -->
-    <div id="legalModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <h2>Mentions légales</h2>
-
-            <p><strong>Nom :</strong> <br>Jeyron Jeyaraj<br>
-            
-            <p><strong>Hébergement :</strong><br>
-            Ce site est hébergé par Vercel</p>
-            
-            <p><strong>Contenus :</strong><br>
-                Tous les textes, images et projets présents sur ce site sont partagés dans le cadre d’un travail d’études, sans but commercial.<br>
-            Les images générées par ChatGPT sont libres de droits dans le cadre de cet usage.<br>
-            <p><strong>Contact :</strong><br>
-            jeyronjyj@gmail.com</p>
-            
-        </div>
-    </div>
-    
+  </div>
 </body>
-
 </html>

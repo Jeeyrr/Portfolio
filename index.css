@@ -64,7 +64,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.accueil-texte h2{
+.accueil-texte h1{
     font-family: Blippo, fantasy;
     font-size: 50px;
     color: rgba(222, 183, 240, 0.8);
@@ -74,7 +74,7 @@ body {
     margin-top: 10%;
     
 }
-h3 {
+.accueil-texte h2 {
     font-family: Impact, fantasy;
     font-size: 70px;
     margin-left: 40%;
@@ -216,6 +216,13 @@ h3 {
   padding: 100px 0;
   font-family: Jost;
   margin-top: 5%;
+}
+.design-section h2 {
+  text-align: center;
+  color: #5e249d;
+  margin-bottom: 100px;
+  font-size: 70px;
+  font-weight: bold;
 }
 
 .design {

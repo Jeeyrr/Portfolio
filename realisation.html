@@ -1,138 +1,142 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de Jeyron - Réalisations</title>
+    <title>Réalisations | Portfolio de Jeyron Jeyaraj</title>
+    <meta name="description"
+        content="Découvrez les réalisations de Jeyron Jeyaraj : projets en formation, en entreprise, développements web, scripts et automatisations IT.">
     <link rel="stylesheet" href="realisation.css">
     <script src="realisation.js" defer></script>
 </head>
 
 <body>
-    <div class="header">
-        <div class="liens">
+    <header class="header">
+        <nav class="liens" aria-label="Navigation principale">
             <a href="index.html" class="nav-link">Accueil</a>
             <a href="entreprise.html" class="nav-link">Entreprise</a>
             <a href="realisation.html" class="nav-link">Réalisations</a>
             <a href="veille.html" class="nav-link">Veille</a>
             <a href="bilan.html" class="nav-link">Bilan</a>
-        </div>
-    </div>
+        </nav>
+    </header>
 
-    <div class="realisation-title">
-        <h1>Mes Réalisations</h1>
-        <div class="filtre-btns">
-            <button class="filtre" data-filtre="formation">Réalisation Formation</button>
-            <button class="filtre" data-filtre="pro1">Réalisation professionnelle 1ère année</button>
-            <button class="filtre" data-filtre="pro2">Réalisation professionnelle 2ème année</button>
-        </div>
-    </div>
+    <main>
+        <section class="realisation-title">
+            <h1>Mes Réalisations</h1>
+            <div class="filtre-btns">
+                <button class="filtre" data-filtre="formation">Réalisation Formation</button>
+                <button class="filtre" data-filtre="pro1">Réalisation professionnelle 1ère année</button>
+                <button class="filtre" data-filtre="pro2">Réalisation professionnelle 2ème année</button>
+            </div>
+        </section>
 
-<div class="realisation-container">
-    <div class="realisation-card formation">
-        <img src="images/epi.png" alt="Projet 1">
-        <h3>GestEPI</h3>
-        <p>Terminé ! <br> Date : 01/02/2025 au 15/04/2025 </p>
-        <button class="btn-detail" data-modal="modal1">Voir plus</button>
-    </div>
+        <section class="realisation-container">
+            <!-- Une carte par projet -->
+            <article class="realisation-card formation">
+                <img src="images/epi.png" alt="Capture du projet GestEPI" loading="lazy">
+                <h2>GestEPI</h2>
+                <p>Terminé ! <br> Date : 01/02/2025 au 15/04/2025</p>
+                <button class="btn-detail" data-modal="modal1">Voir plus</button>
+            </article>
 
-    <div class="realisation-card pro1" style="display: none;">
-        <img src="images/ticket it.png" alt="Projet 2">
-        <h3>Ticketing IT</h3>
-        <p>En continu <br> Date : 10/2023 - Maintenant </p>
-        <button class="btn-detail" data-modal="modal2">Voir plus</button>
-    </div>
+            <article class="realisation-card pro1" style="display: none;">
+                <img src="images/ticket it.png" alt="Ticketing IT - 1ère année" loading="lazy">
+                <h2>Ticketing IT</h2>
+                <p>En continu <br> Date : 10/2023 - Maintenant</p>
+                <button class="btn-detail" data-modal="modal2">Voir plus</button>
+            </article>
 
-    <div class="realisation-card formation">
-        <img src="images/api.png" alt="Projet 3">
-        <h3>Projet API : Ville Lumière</h3>
-        <p>Terminé ! <br> Date : 02/09/2024 au 18/12/2023</p>
-        <button class="btn-detail" data-modal="modal3">Voir plus</button>
-    </div>
+            <article class="realisation-card formation">
+                <img src="images/api.png" alt="API Ville Lumière" loading="lazy">
+                <h2>Projet API : Ville Lumière</h2>
+                <p>Terminé ! <br> Date : 02/09/2024 au 18/12/2023</p>
+                <button class="btn-detail" data-modal="modal3">Voir plus</button>
+            </article>
 
-    <div class="realisation-card formation">
-        <img src="images/portfolioo.png" alt="Projet 4">
-        <h3>Portfolio</h3>
-        <p>Terminé ! <br> Date : 01/12/2024 au 16/04/2025</p>
-        <button class="btn-detail" data-modal="modal4">Voir plus</button>
-    </div>
+            <article class="realisation-card formation">
+                <img src="images/portfolioo.png" alt="Portfolio personnel" loading="lazy">
+                <h2>Portfolio</h2>
+                <p>Terminé ! <br> Date : 01/12/2024 au 16/04/2025</p>
+                <button class="btn-detail" data-modal="modal4">Voir plus</button>
+            </article>
 
-    <div class="realisation-card pro2" style="display: none;">
-        <img src="images/ticket it.png" alt="Projet 5">
-        <h3>Ticketing IT</h3>
-        <p>En continu <br> Date : 10/2023 - Maintenant </p>
-        <button class="btn-detail" data-modal="modal2">Voir plus</button>
-    </div>
+            <article class="realisation-card pro2" style="display: none;">
+                <img src="images/ticket it.png" alt="Ticketing IT - 2ème année" loading="lazy">
+                <h2>Ticketing IT</h2>
+                <p>En continu <br> Date : 10/2023 - Maintenant</p>
+                <button class="btn-detail" data-modal="modal2">Voir plus</button>
+            </article>
 
-    <div class="realisation-card pro2" style="display: none;">
-        <img src="images/acces uti.png" alt="Projet 6">
-        <h3>Gestion des accès utilisateurs</h3>
-        <p>En continu <br> Date : 11/2024 - Maintenant </p>
-        <button class="btn-detail" data-modal="modal5">Voir plus</button>
-    </div>
+            <article class="realisation-card pro2" style="display: none;">
+                <img src="images/acces uti.png" alt="Gestion des accès utilisateurs logiciels pharmaceutiques"
+                    loading="lazy">
+                <h2>Gestion des accès utilisateurs</h2>
+                <p>En continu <br> Date : 11/2024 - Maintenant</p>
+                <button class="btn-detail" data-modal="modal5">Voir plus</button>
+            </article>
 
-    <div class="realisation-card pro1" style="display: none;">
-        <img src="images/acces uti.png" alt="Projet 7">
-        <h3>Gestion des accès utilisateurs</h3>
-        <p>En continu <br> Date : 11/2024 - Maintenant </p>
-        <button class="btn-detail" data-modal="modal5">Voir plus</button>
-    </div>
+            <article class="realisation-card pro1" style="display: none;">
+                <img src="images/acces uti.png" alt="Gestion des accès - 1ère année" loading="lazy">
+                <h2>Gestion des accès utilisateurs</h2>
+                <p>En continu <br> Date : 11/2024 - Maintenant</p>
+                <button class="btn-detail" data-modal="modal5">Voir plus</button>
+            </article>
 
-    <div class="realisation-card pro2" style="display: none;">
-        <img src="images/pa.png" alt="Projet 8">
-        <h3>Notification Email automatisée</h3>
-        <p>Terminé !<br> Date : 24/03/2025 au 28/03/2025 </p>
-        <button class="btn-detail" data-modal="modal6">Voir plus</button>
-    </div>
-</div>
+            <article class="realisation-card pro2" style="display: none;">
+                <img src="images/pa.png" alt="Notification email automatisée" loading="lazy">
+                <h2>Notification Email automatisée</h2>
+                <p>Terminé ! <br> Date : 24/03/2025 au 28/03/2025</p>
+                <button class="btn-detail" data-modal="modal6">Voir plus</button>
+            </article>
+        </section>
 
-<div id="modal1" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>GestEPI</h2>
-        <p><strong>Description :</strong> Application de gestion de stocks et EPI pour une entreprise simulée, développée avec Java et MySQL.</p>
-    </div>
-</div>
-
-<div id="modal2" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Ticketing IT</h2>
-        <p><strong>Description :</strong> Suivi et traitement des tickets informatiques au sein de l’entreprise pendant la 1ère année pro.</p>
-    </div>
-</div>
-
-<div id="modal3" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Projet API Ville Lumière</h2>
-        <p><strong>Description :</strong> Application web de découverte touristique avec Django + API.</p>
-    </div>
-</div>
-
-<div id="modal4" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Portfolio</h2>
-        <p><strong>Description :</strong> Portfolio développé pour présenter mes projets et compétences techniques, en HTML, CSS et JS.</p>
-    </div>
-</div>
-
-<div id="modal5" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Gestion des accès</h2>
-        <p><strong>Description :</strong> Gestion des droits logiciels et coordination avec les éditeurs (2ème année).</p>
-    </div>
-</div>
-
-<div id="modal6" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Notification Email - Automatisation</h2>
-        <p><strong>Description :</strong> Script automatisé pour notifier par mail les ajouts de tickets dans un tableau Excel.</p>
-    </div>
-</div>
+        <!-- Modales -->
+        <section class="modals">
+            <div id="modal1" class="modal">
+                <div class="modal-content"><span class="close">&times;</span>
+                    <h3>GestEPI</h3>
+                    <p><strong>Description :</strong> Application de gestion de stocks et EPI pour une entreprise
+                        simulée, développée avec Java et MySQL.</p>
+                </div>
+            </div>
+            <div id="modal2" class="modal">
+                <div class="modal-content"><span class="close">&times;</span>
+                    <h3>Ticketing IT</h3>
+                    <p><strong>Description :</strong> Suivi et traitement des tickets informatiques au sein de
+                        l’entreprise pendant la 1ère année pro.</p>
+                </div>
+            </div>
+            <div id="modal3" class="modal">
+                <div class="modal-content"><span class="close">&times;</span>
+                    <h3>Projet API Ville Lumière</h3>
+                    <p><strong>Description :</strong> Application web de découverte touristique avec Django + API.</p>
+                </div>
+            </div>
+            <div id="modal4" class="modal">
+                <div class="modal-content"><span class="close">&times;</span>
+                    <h3>Portfolio</h3>
+                    <p><strong>Description :</strong> Portfolio développé pour présenter mes projets et compétences
+                        techniques, en HTML, CSS et JS.</p>
+                </div>
+            </div>
+            <div id="modal5" class="modal">
+                <div class="modal-content"><span class="close">&times;</span>
+                    <h3>Gestion des accès</h3>
+                    <p><strong>Description :</strong> Gestion des droits logiciels et coordination avec les éditeurs
+                        (2ème année).</p>
+                </div>
+            </div>
+            <div id="modal6" class="modal">
+                <div class="modal-content"><span class="close">&times;</span>
+                    <h3>Notification Email - Automatisation</h3>
+                    <p><strong>Description :</strong> Script automatisé pour notifier par mail les ajouts de tickets
+                        dans un tableau Excel.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="footer-content">
@@ -140,24 +144,19 @@
             <button class="footer-legal-btn" onclick="openModal()">Mentions légales</button>
         </div>
     </footer>
-    
+
+    <!-- Modal Mentions légales -->
     <div id="legalModal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
             <h2>Mentions légales</h2>
-
-            <p><strong>Nom :</strong> <br>Jeyron Jeyaraj<br>
-            
-            <p><strong>Hébergement :</strong><br>
-            Ce site est hébergé par Vercel</p>
-            
-            <p><strong>Contenus :</strong><br>
-                Tous les textes, images et projets présents sur ce site sont partagés dans le cadre d’un travail d’études, sans but commercial.<br>
-            Les images générées par ChatGPT sont libres de droits dans le cadre de cet usage.<br>
-            <p><strong>Contact :</strong><br>
-            jeyronjyj@gmail.com</p>
+            <p><strong>Nom :</strong> Jeyron Jeyaraj</p>
+            <p><strong>Hébergement :</strong> Ce site est hébergé par Vercel</p>
+            <p><strong>Contenus :</strong> Tous les textes, images et projets présents sur ce site sont partagés dans le
+                cadre d’un travail d’études, sans but commercial.</p>
+            <p><strong>Contact :</strong> jeyronjyj@gmail.com</p>
         </div>
     </div>
-    
 </body>
+
 </html>

@@ -1,141 +1,136 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de Jeyron - Accueil</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeyron Jeyaraj | Portfolio Développeur Web & IT</title>
+  <meta name="description" content="Bienvenue sur le portfolio de Jeyron Jeyaraj, étudiant en BTS SIO spécialisé en développement web, automatisation et support IT." />
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  
+  <!-- Données structurées JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jeyron Jeyaraj",
+      "url": "https://portfolio-jeyron-jeyaraj.vercel.app",
+      "jobTitle": "Étudiant BTS SIO - Développeur Web & IT",
+      "sameAs": [
+        "https://linkedin.com/in/jeyron-jeyaraj-923997269",
+        "https://github.com/jeeyrr",
+        "https://gitlab.com/jeyrr"
+      ]
+    }
+  </script>
 </head>
 <body>
-    <div class="header">
-        <div class="liens">
-            <a href="index.html" class="nav-link">Accueil</a>
-            <a href="entreprise.html" class="nav-link">Entreprise</a>
-            <a href="realisation.html" class="nav-link">Réalisations</a>    
-            <a href="veille.html" class="nav-link">Veille</a>
-            <a href="bilan.html" class="nav-link">Bilan</a>
-        </div>
-    </div>
+  <header class="header">
+    <nav class="liens" aria-label="Navigation principale">
+      <a href="index.html" class="nav-link">Accueil</a>
+      <a href="entreprise.html" class="nav-link">Entreprise</a>
+      <a href="realisation.html" class="nav-link">Réalisations</a>
+      <a href="veille.html" class="nav-link">Veille</a>
+      <a href="bilan.html" class="nav-link">Bilan</a>
+    </nav>
+  </header>
 
-    <div class="accueil-container">
-        <div class="accueil-texte">
-            <h2>Bienvenue sur le Portfolio de...</h2>
-            <h3>Jeyron JEYARAJ</h3>
-            <div class="social-links">
-                <a href="https://linkedin.com/in/jeyron-jeyaraj-923997269" target="_blank" class="icon linkedin">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/jeeyrr" target="_blank" class="icon github">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://gitlab.com/jeyrr" target="_blank" class="icon gitlab">
-                    <i class="fab fa-gitlab"></i>
-                </a>
-            </div>
+  <main>
+    <section class="accueil-container">
+      <div class="accueil-texte">
+        <h1>Bienvenue sur le Portfolio de</h1>
+        <h2>Jeyron JEYARAJ</h2>
+        <div class="social-links">
+          <a href="https://linkedin.com/in/jeyron-jeyaraj-923997269" target="_blank" class="icon linkedin" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/jeeyrr" target="_blank" class="icon github" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://gitlab.com/jeyrr" target="_blank" class="icon gitlab" aria-label="GitLab">
+            <i class="fab fa-gitlab"></i>
+          </a>
         </div>
-        <div class="accueil-image">
-            <img src="images/personnage_portfolio_modifié-removebg-preview.png">
-        </div>
-    </div>
-<div class="bouton-container">
-    <button id="about-me-btn">À propos de moi</button>
-</div>
+      </div>
+      <div class="accueil-image">
+        <img src="images/personnage_portfolio_modifié-removebg-preview.png" alt="Avatar représentant Jeyron Jeyaraj" loading="lazy" />
+      </div>
+    </section>
 
-    <div id="about-me-section" class="hidden">
-        <div class="presentation-container">
-            <div class="presentation">
-                <p>Salut, je m'appelle Jeyron Jeyaraj, j'ai 20 ans et je suis actuellement en deuxième année de BTS SIO
-                    (Services Informatiques aux Organisations)<br>
-                    à l'ESIEE IT, école d'ingénieurs et de l'expertise numérique.<br>Mon cursus se déroule en alternance,
-                    avec un rythme d'une semaine en école et une semaine en entreprise.<br>
-                    Dans ce cadre, j'ai l'opportunité de travailler chez SGS Life Science Services en tant qu'alternant VSI
-                    / IT.</p>
-            </div>
-        </div>
-        <div class="skill-cv-container">
-            <div id="skills-section" class="skills-section">
-                <h2>Mes Compétences</h2>
-                <div class="skill">
-                    <span>HTML</span>
-                </div>
-                <div class="skill">
-                    <span>CSS</span>
-                </div>
-                <div class="skill">
-                    <span>JavaScript</span>
-                </div>
-                <div class="skill">
-                    <span>Python</span>
-                </div>
-                <div class="skill">
-                    <span>PHP</span>
-                </div>
-                <div class="skill">
-                    <span>C#</span>
-                </div>
-            </div>
-            <div class="cv-section">
-                <a href="images/cv jeyron 2.pdf" class="btn-cv" target="_blank">
-                    Mon CV
-                </a>
-            </div>
-        </div>
-        <section class="design-section">
-            <div class="timeline">
-                <div class="timeline-empty"></div>
-                <div class="timeline-middle">
-                    <div class="timeline-circle"></div>
-                </div>
-                <div class="timeline-component timeline-content">
-                    <h3>2023-2025</h3>
-                    <p>BTS SIO (SLAM) <br> ESSIE-IT <br> Alternance : SGS Life Science Services <br> Alternant VSI / IT </p>
-                </div>
-                <div class="timeline-component timeline-content">
-                    <h3>2022-2023</h3>
-                    <p>BTS MCO <br> CFA CODIS <br> Alternance : Monoprix Asnière Gare <br> Alternant Rayon H/F</p>
-                </div>
-                <div class="timeline-middle">
-                    <div class="timeline-circle"></div>
-                </div>
-                <div class="timeline-empty"></div>
-                <div class="timeline-empty"></div>
-                <div class="timeline-middle">
-                    <div class="timeline-circle"></div>
-                </div>
-                <div class="timeline-component timeline-content">
-                    <h3>2022</h3>
-                    <p>BAC STI2D option SIN <br> Lycée Jean Perrin</p>
-                </div>
-            </div>
+    <section class="bouton-container">
+      <button id="about-me-btn" aria-expanded="false">À propos de moi</button>
+    </section>
+
+    <section id="about-me-section" class="hidden" aria-hidden="true">
+      <div class="presentation-container">
+        <article class="presentation">
+          <p>
+            Salut, je m'appelle Jeyron Jeyaraj, j'ai 20 ans et je suis actuellement en deuxième année de BTS SIO (Services Informatiques aux Organisations) à l'ESIEE IT.
+            Mon cursus se déroule en alternance, avec une semaine en école et une semaine en entreprise, chez SGS Life Science Services en tant qu'alternant VSI / IT.
+          </p>
+        </article>
+      </div>
+
+      <div class="skill-cv-container">
+        <section class="skills-section" id="skills-section">
+          <h2>Mes Compétences</h2>
+          <div class="skill"><span>HTML</span></div>
+          <div class="skill"><span>CSS</span></div>
+          <div class="skill"><span>JavaScript</span></div>
+          <div class="skill"><span>Python</span></div>
+          <div class="skill"><span>PHP</span></div>
+          <div class="skill"><span>C#</span></div>
         </section>
-    </div>
-    <script src="index.js"></script>
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-left">Jeyron Jeyaraj © 2025</div>
-            <button class="footer-legal-btn" onclick="openModal()">Mentions légales</button>
+        <div class="cv-section">
+          <a href="images/cv jeyron 2.pdf" class="btn-cv" target="_blank" rel="noopener">Mon CV</a>
         </div>
-    </footer>
-    
-    <!-- Modal -->
-    <div id="legalModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <h2>Mentions légales</h2>
+      </div>
 
-            <p><strong>Nom :</strong> <br>Jeyron Jeyaraj<br>
-            
-            <p><strong>Hébergement :</strong><br>
-            Ce site est hébergé par Vercel</p>
-            
-            <p><strong>Contenus :</strong><br>
-                Tous les textes, images et projets présents sur ce site sont partagés dans le cadre d’un travail d’études, sans but commercial.<br>
-            Les images générées par ChatGPT sont libres de droits dans le cadre de cet usage.<br>
-            <p><strong>Contact :</strong><br>
-            jeyronjyj@gmail.com</p>
+      <section class="design-section">
+        <h2>Parcours scolaire</h2>
+        <div class="timeline">
+          <div class="timeline-empty"></div>
+          <div class="timeline-middle"><div class="timeline-circle"></div></div>
+          <div class="timeline-component timeline-content">
+            <h3>2023-2025</h3>
+            <p>BTS SIO (SLAM) - ESIEE-IT<br />Alternance : SGS Life Science Services<br />Poste : Alternant VSI / IT</p>
+          </div>
+          <div class="timeline-component timeline-content">
+            <h3>2022-2023</h3>
+            <p>BTS MCO - CFA CODIS<br />Alternance : Monoprix Asnières Gare<br />Poste : Employé de rayon</p>
+          </div>
+          <div class="timeline-middle"><div class="timeline-circle"></div></div>
+          <div class="timeline-empty"></div>
+          <div class="timeline-empty"></div>
+          <div class="timeline-middle"><div class="timeline-circle"></div></div>
+          <div class="timeline-component timeline-content">
+            <h3>2022</h3>
+            <p>BAC STI2D option SIN - Lycée Jean Perrin</p>
+          </div>
         </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">Jeyron Jeyaraj © 2025</div>
+      <button class="footer-legal-btn" onclick="openModal()">Mentions légales</button>
     </div>
-    
+  </footer>
+
+  <!-- Modal Mentions légales -->
+  <div id="legalModal" class="modal" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>Mentions légales</h2>
+      <p><strong>Nom :</strong> Jeyron Jeyaraj</p>
+      <p><strong>Hébergement :</strong> Ce site est hébergé par Vercel</p>
+      <p><strong>Contenus :</strong> Tous les contenus sont partagés dans le cadre d’un travail d’études, sans but commercial.</p>
+      <p><strong>Contact :</strong> jeyronjyj@gmail.com</p>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>
