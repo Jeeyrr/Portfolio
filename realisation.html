@@ -109,18 +109,84 @@
                 </div>
             </div>
             <div id="modal3" class="modal">
-                <div class="modal-content"><span class="close">&times;</span>
-                    <h3>Projet API Ville Lumière</h3>
-                    <p><strong>Description :</strong> Application web de découverte touristique avec Django + API.</p>
+                <div class="modal-content custom-modal">
+                  <span class="close">&times;</span>
+                  <h2>Projet API : Ville Lumière (Ligue 1)</h2>
+              
+                  <p><strong>📆 Durée :</strong> Septembre 2024 – Décembre 2024</p>
+              
+                  <p><strong>🎯 Objectif :</strong> Créer une plateforme d’information sur la Ligue 1 en exploitant les données de l’<strong>API-FOOTBALL</strong>. L’objectif était d’afficher des infos actualisées sur les équipes, classements et résultats de match via une API externe, dans un site construit avec Django.</p>
+              
+                  <p><strong>📦 Contexte :</strong> Projet d’équipe réalisé en 2ème année de BTS SIO SLAM. L’idée est née d’une passion commune pour le football. Le site permet d’explorer dynamiquement les données sportives de la Ligue 1 à travers une API, tout en apprenant à structurer un projet Django complet.</p>
+              
+                  <div class="tech-icons">
+                    <span class="tech html">HTML</span>
+                    <span class="tech css">CSS</span>
+                    <span class="tech js">JavaScript</span>
+                    <span class="tech">Python</span>
+                    <span class="tech">Django</span>
+                    <span class="tech">API-FOOTBALL</span>
+                  </div>
+              
+                  <p><strong>⚙️ Fonctions principales :</strong></p>
+                  <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
+                    <li>Affichage du <strong>classement en temps réel</strong> de la Ligue 1</li>
+                    <li>Actualités et <strong>dernières infos</strong> football</li>
+                    <li>Pages dédiées aux équipes (logo, statistiques, etc.)</li>
+                    <li>Appels API pour récupérer les <strong>résultats de matchs</strong></li>
+                    <li>Rendu dynamique des données avec Django + templates</li>
+                  </ul>
+              
+                  <div class="modal-buttons">
+                    <button class="modal-btn" onclick="openProof('ville-code')">📄 Structure Django & API</button>
+                    <button class="modal-btn" onclick="openProof('ville-api')">📄 Appels API & Données récupérées</button>
+                    <button class="modal-btn" onclick="openProof('ville-affichage')">📄 Pages & affichage final</button>
+                  </div>
                 </div>
-            </div>
+              </div>
             <div id="modal4" class="modal">
-                <div class="modal-content"><span class="close">&times;</span>
-                    <h3>Portfolio</h3>
-                    <p><strong>Description :</strong> Portfolio développé pour présenter mes projets et compétences
-                        techniques, en HTML, CSS et JS.</p>
+                <div class="modal-content custom-modal">
+                  <span class="close">&times;</span>
+                  <h2>Projet : Portfolio</h2>
+              
+                  <p><strong>📆 Durée :</strong> Décembre 2024 – Avril 2025</p>
+                  <p><strong>🎯 Objectif :</strong> Créer un site vitrine personnel pour valoriser mes compétences et mes projets, tout en respectant les bonnes pratiques SEO, accessibilité et performance.</p>
+              
+                  <p><strong>🏢 Contexte :</strong> Réalisé dans le cadre du BTS SIO SLAM, ce portfolio est un projet personnel visant à présenter mes travaux réalisés en formation et en entreprise.</p>
+              
+                  <div class="tech-icons">
+                    <span class="tech html">HTML</span>
+                    <span class="tech css">CSS</span>
+                    <span class="tech js">JavaScript</span>
+                  </div>
+              
+                  <p><strong>💡 Fonctionnalités  :</strong></p>
+                  <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
+                    <li>Navigation fluide entre les pages du site</li>
+                    <li>Affichage des projets avec filtres </li>
+                    <li>Modals interactifs avec contenu personnalisé</li>
+                    <li>Animations et fond animé pour un rendu visuel attractif</li>
+                    <li>Ajout d'un sitemap.xml et vérification via Google Search Console</li>
+                  </ul>
+              
+                  <p><strong>🛠️ Compétences  :</strong></p>
+                  <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
+                    <li>Conception d’une interface web responsive</li>
+                    <li>Optimisation SEO (meta, sitemap, balises sémantiques)</li>
+                    <li>Utilisation de Lighthouse pour mesurer la performance</li>
+                    <li>Publication sur Vercel & gestion de domaine</li>
+                  </ul>
+              
+                  <div class="modal-buttons">
+                    <button class="modal-btn" onclick="openProof('referencement')">📄 Référencement</button>
+                    <button class="modal-btn" onclick="openProof('lighthouse')">📄 Lighthouse SEO</button>
+                    <button class="modal-btn" onclick="openProof('vercel')">📄 Déploiement Vercel</button>
+                  </div>
+                  
                 </div>
-            </div>
+              </div>
+              
+              
             <div id="modal5" class="modal">
                 <div class="modal-content"><span class="close">&times;</span>
                     <h3>Gestion des accès</h3>
@@ -157,6 +223,11 @@
             <p><strong>Contact :</strong> jeyronjyj@gmail.com</p>
         </div>
     </div>
+    <div id="proofLightbox" class="proof-lightbox">
+        <span class="close-lightbox" onclick="closeProofImage()">&times;</span>
+        <img id="proofImage" src="" alt="Preuves screenshot">
+      </div>
+      
 </body>
 
 </html>

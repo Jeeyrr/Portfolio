@@ -73,3 +73,26 @@ window.onclick = function(event) {
         modal.style.display = 'none';
     }
 }
+function openProof(type) {
+    const image = document.getElementById("proofImage");
+    const lightbox = document.getElementById("proofLightbox");
+  
+    switch (type) {
+      case 'referencement':
+        image.src = 'images/preuve-referencement.png';
+        break;
+      case 'lighthouse':
+        image.src = 'images/preuve-lighthouse.png';
+        break;
+      case 'vercel':
+        image.src = 'images/preuve-vercel.png';
+        break;
+    }
+  
+    lightbox.style.display = 'flex';
+  }
+  
+  function closeProofImage() {
+    document.getElementById("proofLightbox").style.display = "none";
+  }
+  
