@@ -92,116 +92,222 @@
             </article>
         </section>
 
-        <!-- Modales -->
-        <section class="modals">
-            <div id="modal1" class="modal">
-                <div class="modal-content"><span class="close">&times;</span>
-                    <h3>GestEPI</h3>
-                    <p><strong>Description :</strong> Application de gestion de stocks et EPI pour une entreprise
-                        simulée, développée avec Java et MySQL.</p>
-                </div>
+<!-- Modales améliorées pour la page réalisation -->
+<section class="modals">
+    <!-- Modal 1: GestEPI -->
+    <div id="modal1" class="modal">
+        <div class="modal-content custom-modal">
+            <span class="close">&times;</span>
+            <h2>GestEPI</h2>
+            
+            <p><strong>📆 Durée :</strong> 01/02/2025 au 15/04/2025</p>
+            <p><strong>🎯 Objectif :</strong> Développer une application de gestion de stocks et EPI (Équipements de Protection Individuelle) pour une entreprise simulée.</p>
+            
+            <p><strong>📦 Contexte :</strong> Projet réalisé en formation dans le cadre du BTS SIO SLAM. Cette application permet de suivre les stocks, gérer les attributions d'équipements et générer des statistiques d'utilisation.</p>
+            
+            <div class="tech-icons">
+                <span class="tech" style="background-color: #61DAFB; color: #000;">React</span>
+                <span class="tech" style="background-color: #3178C6; color: white;">TypeScript</span>
+                <span class="tech" style="background-color: #00618A; color: white;">SQL</span>
+                <span class="tech" style="background-color: #68A063; color: white;">Node.js</span>
+                <span class="tech" style="background-color: #7383BF; color: white;">WAMP</span>
+                <span class="tech" style="background-color: #003545; color: white;">MariaDB</span>
+                <span class="tech" style="background-color: #CB3837; color: white;">npm</span>
             </div>
-            <div id="modal2" class="modal">
-                <div class="modal-content"><span class="close">&times;</span>
-                    <h3>Ticketing IT</h3>
-                    <p><strong>Description :</strong> Suivi et traitement des tickets informatiques au sein de
-                        l’entreprise pendant la 1ère année pro.</p>
-                </div>
+            
+            <p><strong>⚙️ Fonctionnalités principales :</strong></p>
+            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
+                <li>Gestion du stock d'équipements de protection</li>
+                <li>Attribution d'EPI aux employés</li>
+                <li>Suivi des dates de péremption et renouvellements</li>
+                <li>Statistiques d'utilisation et rapports</li>
+                <li>Interface utilisateur intuitive et responsive</li>
+            </ul>
+            
+            <div class="modal-buttons">
+                <button class="modal-btn" onclick="openProof('gestepi-interface')">📄 Interface</button>
+                <button class="modal-btn" onclick="openProof('gestepi-code')">📄 Structure du code</button>
+                <button class="modal-btn" onclick="openProof('gestepi-bdd')">📄 Base de données</button>
             </div>
-            <div id="modal3" class="modal">
-                <div class="modal-content custom-modal">
-                  <span class="close">&times;</span>
-                  <h2>Projet API : Ville Lumière (Ligue 1)</h2>
-              
-                  <p><strong>📆 Durée :</strong> Septembre 2024 – Décembre 2024</p>
-              
-                  <p><strong>🎯 Objectif :</strong> Créer une plateforme d’information sur la Ligue 1 en exploitant les données de l’<strong>API-FOOTBALL</strong>. L’objectif était d’afficher des infos actualisées sur les équipes, classements et résultats de match via une API externe, dans un site construit avec Django.</p>
-              
-                  <p><strong>📦 Contexte :</strong> Projet d’équipe réalisé en 2ème année de BTS SIO SLAM. L’idée est née d’une passion commune pour le football. Le site permet d’explorer dynamiquement les données sportives de la Ligue 1 à travers une API, tout en apprenant à structurer un projet Django complet.</p>
-              
-                  <div class="tech-icons">
-                    <span class="tech html">HTML</span>
-                    <span class="tech css">CSS</span>
-                    <span class="tech js">JavaScript</span>
-                    <span class="tech">Python</span>
-                    <span class="tech">Django</span>
-                    <span class="tech">API-FOOTBALL</span>
-                  </div>
-              
-                  <p><strong>⚙️ Fonctions principales :</strong></p>
-                  <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
-                    <li>Affichage du <strong>classement en temps réel</strong> de la Ligue 1</li>
-                    <li>Actualités et <strong>dernières infos</strong> football</li>
-                    <li>Pages dédiées aux équipes (logo, statistiques, etc.)</li>
-                    <li>Appels API pour récupérer les <strong>résultats de matchs</strong></li>
-                    <li>Rendu dynamique des données avec Django + templates</li>
-                  </ul>
-              
-                  <div class="modal-buttons">
-                    <button class="modal-btn" onclick="openProof('ville-code')">📄 Structure Django & API</button>
-                    <button class="modal-btn" onclick="openProof('ville-api')">📄 Appels API & Données récupérées</button>
-                    <button class="modal-btn" onclick="openProof('ville-affichage')">📄 Pages & affichage final</button>
-                  </div>
-                </div>
-              </div>
-            <div id="modal4" class="modal">
-                <div class="modal-content custom-modal">
-                  <span class="close">&times;</span>
-                  <h2>Projet : Portfolio</h2>
-              
-                  <p><strong>📆 Durée :</strong> Décembre 2024 – Avril 2025</p>
-                  <p><strong>🎯 Objectif :</strong> Créer un site vitrine personnel pour valoriser mes compétences et mes projets, tout en respectant les bonnes pratiques SEO, accessibilité et performance.</p>
-              
-                  <p><strong>🏢 Contexte :</strong> Réalisé dans le cadre du BTS SIO SLAM, ce portfolio est un projet personnel visant à présenter mes travaux réalisés en formation et en entreprise.</p>
-              
-                  <div class="tech-icons">
-                    <span class="tech html">HTML</span>
-                    <span class="tech css">CSS</span>
-                    <span class="tech js">JavaScript</span>
-                  </div>
-              
-                  <p><strong>💡 Fonctionnalités  :</strong></p>
-                  <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
-                    <li>Navigation fluide entre les pages du site</li>
-                    <li>Affichage des projets avec filtres </li>
-                    <li>Modals interactifs avec contenu personnalisé</li>
-                    <li>Animations et fond animé pour un rendu visuel attractif</li>
-                    <li>Ajout d'un sitemap.xml et vérification via Google Search Console</li>
-                  </ul>
-              
-                  <p><strong>🛠️ Compétences  :</strong></p>
-                  <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
-                    <li>Conception d’une interface web responsive</li>
-                    <li>Optimisation SEO (meta, sitemap, balises sémantiques)</li>
-                    <li>Utilisation de Lighthouse pour mesurer la performance</li>
-                    <li>Publication sur Vercel & gestion de domaine</li>
-                  </ul>
-              
-                  <div class="modal-buttons">
-                    <button class="modal-btn" onclick="openProof('referencement')">📄 Référencement</button>
-                    <button class="modal-btn" onclick="openProof('lighthouse')">📄 Lighthouse SEO</button>
-                    <button class="modal-btn" onclick="openProof('vercel')">📄 Déploiement Vercel</button>
-                  </div>
-                  
-                </div>
-              </div>
-              
-              
-            <div id="modal5" class="modal">
-                <div class="modal-content"><span class="close">&times;</span>
-                    <h3>Gestion des accès</h3>
-                    <p><strong>Description :</strong> Gestion des droits logiciels et coordination avec les éditeurs
-                        (2ème année).</p>
-                </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Ticketing IT -->
+    <div id="modal2" class="modal">
+        <div class="modal-content custom-modal">
+            <span class="close">&times;</span>
+            <h2>Ticketing IT</h2>
+            
+            <p><strong>📆 Durée :</strong> Octobre 2023 - Maintenant (en continu)</p>
+            <p><strong>🎯 Objectif :</strong> Gérer et traiter les demandes d'assistance informatique au sein de l'entreprise.</p>
+            
+            <p><strong>🏢 Contexte professionnel :</strong> Mission réalisée en alternance au sein du service informatique. Responsabilité de la réception, du suivi et de la résolution des tickets incidents et demandes utilisateurs.</p>
+            
+            <div class="tech-icons">
+                <span class="tech" style="background-color: #217346; color: white;">Excel</span>
             </div>
-            <div id="modal6" class="modal">
-                <div class="modal-content"><span class="close">&times;</span>
-                    <h3>Notification Email - Automatisation</h3>
-                    <p><strong>Description :</strong> Script automatisé pour notifier par mail les ajouts de tickets
-                        dans un tableau Excel.</p>
-                </div>
+            
+            <p><strong>💼 Responsabilités :</strong></p>
+            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
+                <li>Diagnostic et résolution des problèmes informatiques</li>
+                <li>Support utilisateur (niveau 1 et 2)</li>
+                <li>Gestion des priorités et suivi des SLA</li>
+                <li>Documentation des solutions pour référence future</li>
+                <li>Coordination avec les autres services pour les incidents complexes</li>
+            </ul>
+            
+            <div class="modal-buttons">
+                <button class="modal-btn" onclick="openProof('ticket-stats')">📄 Statistiques de tickets</button>
+                <button class="modal-btn" onclick="openProof('ticket-process')">📄 Processus de traitement</button>
             </div>
-        </section>
+        </div>
+    </div>
+
+    <!-- Modal 3: Projet API Ville Lumière -->
+    <div id="modal3" class="modal">
+        <div class="modal-content custom-modal">
+            <span class="close">&times;</span>
+            <h2>Projet API : Ville Lumière (Ligue 1)</h2>
+        
+            <p><strong>📆 Durée :</strong> Septembre 2024 – Décembre 2024</p>
+        
+            <p><strong>🎯 Objectif :</strong> Créer une plateforme d'information sur la Ligue 1 en exploitant les données de l'<strong>API-FOOTBALL</strong>. L'objectif était d'afficher des infos actualisées sur les équipes, classements et résultats de match via une API externe, dans un site construit avec Django.</p>
+        
+            <p><strong>📦 Contexte :</strong> Projet d'équipe réalisé en 2ème année de BTS SIO SLAM. L'idée est née d'une passion commune pour le football. Le site permet d'explorer dynamiquement les données sportives de la Ligue 1 à travers une API, tout en apprenant à structurer un projet Django complet.</p>
+        
+            <div class="tech-icons">
+                <span class="tech html">HTML</span>
+                <span class="tech css">CSS</span>
+                <span class="tech js">JavaScript</span>
+                <span class="tech" style="background-color: #366B9A; color: white;">Python</span>
+                <span class="tech" style="background-color: #092E20; color: white;">Django</span>
+                <span class="tech" style="background-color: #FF4B4B; color: white;">API-FOOTBALL</span>
+            </div>
+        
+            <p><strong>⚙️ Fonctions principales :</strong></p>
+            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
+                <li>Affichage du <strong>classement en temps réel</strong> de la Ligue 1</li>
+                <li>Actualités et <strong>dernières infos</strong> football</li>
+                <li>Pages dédiées aux équipes (logo, statistiques, etc.)</li>
+                <li>Appels API pour récupérer les <strong>résultats de matchs</strong></li>
+                <li>Rendu dynamique des données avec Django + templates</li>
+            </ul>
+        
+            <div class="modal-buttons">
+                <button class="modal-btn" onclick="openProof('ville-code')">📄 Structure Django & API</button>
+                <button class="modal-btn" onclick="openProof('ville-api')">📄 Appels API & Données récupérées</button>
+                <button class="modal-btn" onclick="openProof('ville-affichage')">📄 Pages & affichage final</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4: Portfolio -->
+    <div id="modal4" class="modal">
+        <div class="modal-content custom-modal">
+            <span class="close">&times;</span>
+            <h2>Projet : Portfolio</h2>
+        
+            <p><strong>📆 Durée :</strong> Décembre 2024 – Avril 2025</p>
+            <p><strong>🎯 Objectif :</strong> Créer un site vitrine personnel pour valoriser mes compétences et mes projets, tout en respectant les bonnes pratiques SEO, accessibilité et performance.</p>
+        
+            <p><strong>🏢 Contexte :</strong> Réalisé dans le cadre du BTS SIO SLAM, ce portfolio est un projet personnel visant à présenter mes travaux réalisés en formation et en entreprise.</p>
+        
+            <div class="tech-icons">
+                <span class="tech html">HTML</span>
+                <span class="tech css">CSS</span>
+                <span class="tech js">JavaScript</span>
+            </div>
+        
+            <p><strong>💡 Fonctionnalités  :</strong></p>
+            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
+                <li>Navigation fluide entre les pages du site</li>
+                <li>Affichage des projets avec filtres </li>
+                <li>Modals interactifs avec contenu personnalisé</li>
+                <li>Animations et fond animé pour un rendu visuel attractif</li>
+                <li>Ajout d'un sitemap.xml et vérification via Google Search Console</li>
+            </ul>
+        
+            <p><strong>🛠️ Compétences  :</strong></p>
+            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
+                <li>Conception d'une interface web responsive</li>
+                <li>Optimisation SEO (meta, sitemap, balises sémantiques)</li>
+                <li>Utilisation de Lighthouse pour mesurer la performance</li>
+                <li>Publication sur Vercel & gestion de domaine</li>
+            </ul>
+        
+            <div class="modal-buttons">
+                <button class="modal-btn" onclick="openProof('referencement')">📄 Référencement</button>
+                <button class="modal-btn" onclick="openProof('lighthouse')">📄 Lighthouse SEO</button>
+                <button class="modal-btn" onclick="openProof('vercel')">📄 Déploiement Vercel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5: Gestion des accès utilisateurs -->
+    <div id="modal5" class="modal">
+        <div class="modal-content custom-modal">
+            <span class="close">&times;</span>
+            <h2>Gestion des accès utilisateurs</h2>
+            
+            <p><strong>📆 Durée :</strong> Novembre 2024 - Maintenant (en continu)</p>
+            <p><strong>🎯 Objectif :</strong> Gérer les droits d'accès aux logiciels et applications pharmaceutiques de l'entreprise tout en assurant la conformité réglementaire.</p>
+            
+            <p><strong>🏢 Contexte professionnel :</strong> Mission confiée en alternance dans une entreprise pharmaceutique. Gestion des demandes d'accès, mise à jour des droits, et coordination avec les éditeurs de logiciels métiers.</p>
+            
+            <div class="tech-icons">
+                <span class="tech" style="background-color: #217346; color: white;">Excel</span>
+                <span class="tech" style="background-color: #0078D7; color: white;">Logiciels pharmaceutiques</span>
+            </div>
+            
+            <p><strong>🔐 Processus de gestion :</strong></p>
+            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
+                <li>Réception et validation des demandes d'accès</li>
+                <li>Configuration des profils utilisateurs selon les besoins métiers</li>
+                <li>Contrôle et audit des droits conformément aux exigences réglementaires</li>
+                <li>Documentation et traçabilité des accès</li>
+                <li>Gestion des départs et changements de poste</li>
+            </ul>
+            
+            <div class="modal-buttons">
+                <button class="modal-btn" onclick="openProof('acces-workflow')">📄 Workflow de gestion</button>
+                <button class="modal-btn" onclick="openProof('acces-audit')">📄 Rapport d'audit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6: Notification Email - Automatisation -->
+    <div id="modal6" class="modal">
+        <div class="modal-content custom-modal">
+            <span class="close">&times;</span>
+            <h2>Notification Email automatisée</h2>
+            
+            <p><strong>📆 Durée :</strong> 24/03/2025 au 28/03/2025</p>
+            <p><strong>🎯 Objectif :</strong> Automatiser l'envoi de notifications par email lors de l'ajout de tickets dans un tableau Excel.</p>
+            
+            <p><strong>🏢 Contexte professionnel :</strong> Projet d'automatisation développé en entreprise pour améliorer le processus de suivi des tickets et réduire le temps de réponse aux demandes urgentes.</p>
+            
+            <div class="tech-icons">
+                <span class="tech" style="background-color: #0066FF; color: white;">Power Automate</span>
+                <span class="tech" style="background-color: #217346; color: white;">Excel</span>
+                <span class="tech" style="background-color: #0078D4; color: white;">Outlook</span>
+            </div>
+            
+            <p><strong>⚙️ Fonctionnement du script :</strong></p>
+            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
+                <li>Surveillance du fichier Excel contenant les tickets</li>
+                <li>Détection des nouveaux tickets et de leur priorité</li>
+                <li>Génération automatique d'emails personnalisés selon le type de ticket</li>
+                <li>Distribution aux personnes concernées en fonction du service</li>
+                <li>Archivage des notifications envoyées pour traçabilité</li>
+            </ul>
+            
+            <div class="modal-buttons">
+                <button class="modal-btn" onclick="openProof('notif-code')">📄 Flux Power Automate</button>
+                <button class="modal-btn" onclick="openProof('notif-resultat')">📄 Exemple de notification</button>
+            </div>
+        </div>
+    </div>
+</section>
     </main>
 
     <footer class="footer">

@@ -281,15 +281,23 @@ body {
     margin: 20px 0;
   }
   
-  .tech {
+  /* Styles de base pour toutes les icônes technologiques */
+.tech {
     display: inline-block;
     padding: 8px 15px;
-    margin: 0 5px;
+    margin: 5px;
     border-radius: 12px;
     font-weight: bold;
     font-size: 14px;
+    transition: transform 0.2s, box-shadow 0.2s;
   }
   
+  .tech:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  /* Styles spécifiques pour certaines technologies (déjà définis) */
   .tech.html {
     background-color: #e34c26;
     color: white;
@@ -303,6 +311,52 @@ body {
   .tech.js {
     background-color: #f0db4f;
     color: #000;
+  }
+  
+  /* Styles pour les nouvelles technologies */
+  .tech.python {
+    background-color: #366B9A;
+    color: white;
+  }
+  
+  .tech.django {
+    background-color: #092E20;
+    color: white;
+  }
+  
+  .tech.react {
+    background-color: #61DAFB;
+    color: #000;
+  }
+  
+  .tech.typescript {
+    background-color: #3178C6;
+    color: white;
+  }
+  
+  .tech.nodejs {
+    background-color: #68A063;
+    color: white;
+  }
+  
+  .tech.sql {
+    background-color: #00618A;
+    color: white;
+  }
+  
+  .tech.excel {
+    background-color: #217346;
+    color: white;
+  }
+  
+  .tech.outlook {
+    background-color: #0078D4;
+    color: white;
+  }
+  
+  .tech.power-automate {
+    background-color: #0066FF;
+    color: white;
   }
   
   .modal-buttons {
