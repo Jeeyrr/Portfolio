@@ -1,19 +1,16 @@
+<!-- realisation.html -->
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Réalisations | Portfolio de Jeyron Jeyaraj</title>
-    <meta name="description"
-        content="Découvrez les réalisations de Jeyron Jeyaraj : projets en formation, en entreprise, développements web, scripts et automatisations IT.">
     <link rel="stylesheet" href="realisation.css">
     <script src="realisation.js" defer></script>
 </head>
-
 <body>
     <header class="header">
-        <nav class="liens" aria-label="Navigation principale">
+        <nav class="liens">
             <a href="index.html" class="nav-link">Accueil</a>
             <a href="entreprise.html" class="nav-link">Entreprise</a>
             <a href="realisation.html" class="nav-link">Réalisations</a>
@@ -27,293 +24,68 @@
             <h1>Mes Réalisations</h1>
             <div class="filtre-btns">
                 <button class="filtre" data-filtre="formation">Réalisation Formation</button>
-                <button class="filtre" data-filtre="pro1">Réalisation professionnelle 1ère année</button>
-                <button class="filtre" data-filtre="pro2">Réalisation professionnelle 2ème année</button>
+                <button class="filtre" data-filtre="pro1">Réalisation professionelle 1ère année</button>
+                <button class="filtre" data-filtre="pro2">Réalisation professionelle 2ème année</button>
             </div>
         </section>
 
         <section class="realisation-container">
-            <!-- Une carte par projet -->
             <article class="realisation-card formation">
-                <img src="images/epi.png" alt="Capture du projet GestEPI" loading="lazy">
+                <img src="images/epi.png" alt="GestEPI">
                 <h2>GestEPI</h2>
-                <p>Terminé ! <br> Date : 01/02/2025 au 15/04/2025</p>
-                <button class="btn-detail" data-modal="modal1">Voir plus</button>
+                <p>Terminé ! <br> 01/02/2025 - 15/04/2025</p>
+                <a href="gestepi.html" class="btn-detail">Voir plus</a>
             </article>
 
             <article class="realisation-card pro1" style="display: none;">
-                <img src="images/ticket it.png" alt="Ticketing IT - 1ère année" loading="lazy">
+                <img src="images/ticket it.png" alt="Ticketing IT - 1ère année">
                 <h2>Ticketing IT</h2>
-                <p>En continu <br> Date : 10/2023 - Maintenant</p>
-                <button class="btn-detail" data-modal="modal2">Voir plus</button>
+                <p>En continu <br> Depuis 10/2023</p>
+                <a href="ticketing.html" class="btn-detail">Voir plus</a>
+            </article>
+
+            <article class="realisation-card pro2" style="display: none;">
+                <img src="images/ticket it.png" alt="Ticketing IT - 1ère année">
+                <h2>Ticketing IT</h2>
+                <p>En continu <br> Depuis 10/2023</p>
+                <a href="ticketing.html" class="btn-detail">Voir plus</a>
             </article>
 
             <article class="realisation-card formation">
-                <img src="images/api.png" alt="API Ville Lumière" loading="lazy">
+                <img src="images/api.png" alt="API Ville Lumière">
                 <h2>Projet API : Ville Lumière</h2>
-                <p>Terminé ! <br> Date : 02/09/2024 au 18/12/2023</p>
-                <button class="btn-detail" data-modal="modal3">Voir plus</button>
+                <p>Terminé ! <br> 02/09/2024 - 18/12/2023</p>
+                <a href="ville-lumiere.html" class="btn-detail">Voir plus</a>
             </article>
 
             <article class="realisation-card formation">
-                <img src="images/portfolioo.png" alt="Portfolio personnel" loading="lazy">
+                <img src="images/portfolioo.png" alt="Portfolio">
                 <h2>Portfolio</h2>
-                <p>Terminé ! <br> Date : 01/12/2024 au 16/04/2025</p>
-                <button class="btn-detail" data-modal="modal4">Voir plus</button>
-            </article>
-
-            <article class="realisation-card pro2" style="display: none;">
-                <img src="images/ticket it.png" alt="Ticketing IT - 2ème année" loading="lazy">
-                <h2>Ticketing IT</h2>
-                <p>En continu <br> Date : 10/2023 - Maintenant</p>
-                <button class="btn-detail" data-modal="modal2">Voir plus</button>
-            </article>
-
-            <article class="realisation-card pro2" style="display: none;">
-                <img src="images/acces uti.png" alt="Gestion des accès utilisateurs logiciels pharmaceutiques"
-                    loading="lazy">
-                <h2>Gestion des accès utilisateurs</h2>
-                <p>En continu <br> Date : 11/2024 - Maintenant</p>
-                <button class="btn-detail" data-modal="modal5">Voir plus</button>
+                <p>Terminé ! <br> 01/12/2024 - 16/04/2025</p>
+                <a href="portfolio.html" class="btn-detail">Voir plus</a>
             </article>
 
             <article class="realisation-card pro1" style="display: none;">
-                <img src="images/acces uti.png" alt="Gestion des accès - 1ère année" loading="lazy">
+                <img src="images/acces uti.png" alt="Accès utilisateurs">
                 <h2>Gestion des accès utilisateurs</h2>
-                <p>En continu <br> Date : 11/2024 - Maintenant</p>
-                <button class="btn-detail" data-modal="modal5">Voir plus</button>
+                <p>En continu <br> Depuis 11/2024</p>
+                <a href="acces-utilisateurs.html" class="btn-detail">Voir plus</a>
             </article>
 
             <article class="realisation-card pro2" style="display: none;">
-                <img src="images/pa.png" alt="Notification email automatisée" loading="lazy">
+                <img src="images/acces uti.png" alt="Accès utilisateurs">
+                <h2>Gestion des accès utilisateurs</h2>
+                <p>En continu <br> Depuis 11/2024</p>
+                <a href="acces-utilisateurs.html" class="btn-detail">Voir plus</a>
+            </article>
+
+            <article class="realisation-card pro2" style="display: none;">
+                <img src="images/pa.png" alt="Notification Email">
                 <h2>Notification Email automatisée</h2>
-                <p>Terminé ! <br> Date : 24/03/2025 au 28/03/2025</p>
-                <button class="btn-detail" data-modal="modal6">Voir plus</button>
+                <p>Terminé ! <br> 24/03/2025 - 28/03/2025</p>
+                <a href="notification-email.html" class="btn-detail">Voir plus</a>
             </article>
         </section>
-
-<!-- Modales améliorées pour la page réalisation -->
-<section class="modals">
-    <!-- Modal 1: GestEPI -->
-    <div id="modal1" class="modal">
-        <div class="modal-content custom-modal">
-            <span class="close">&times;</span>
-            <h2>GestEPI</h2>
-            
-            <p><strong>📆 Durée :</strong> 01/02/2025 au 15/04/2025</p>
-            <p><strong>🎯 Objectif :</strong> Développer une application de gestion de stocks et EPI (Équipements de Protection Individuelle) pour une entreprise simulée.</p>
-            
-            <p><strong>📦 Contexte :</strong> Projet réalisé en formation dans le cadre du BTS SIO SLAM. Cette application permet de suivre les stocks, gérer les attributions d'équipements et générer des statistiques d'utilisation.</p>
-            
-            <div class="tech-icons">
-                <span class="tech" style="background-color: #61DAFB; color: #000;">React</span>
-                <span class="tech" style="background-color: #3178C6; color: white;">TypeScript</span>
-                <span class="tech" style="background-color: #00618A; color: white;">SQL</span>
-                <span class="tech" style="background-color: #68A063; color: white;">Node.js</span>
-                <span class="tech" style="background-color: #7383BF; color: white;">WAMP</span>
-                <span class="tech" style="background-color: #003545; color: white;">MariaDB</span>
-                <span class="tech" style="background-color: #CB3837; color: white;">npm</span>
-            </div>
-            
-            <p><strong>⚙️ Fonctionnalités principales :</strong></p>
-            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
-                <li>Gestion du stock d'équipements de protection</li>
-                <li>Attribution d'EPI aux employés</li>
-                <li>Suivi des dates de péremption et renouvellements</li>
-                <li>Statistiques d'utilisation et rapports</li>
-                <li>Interface utilisateur intuitive et responsive</li>
-            </ul>
-            
-            <div class="modal-buttons">
-                <button class="modal-btn" onclick="openProof('gestepi-interface')">📄 Interface</button>
-                <button class="modal-btn" onclick="openProof('gestepi-code')">📄 Structure du code</button>
-                <button class="modal-btn" onclick="openProof('gestepi-bdd')">📄 Base de données</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal 2: Ticketing IT -->
-    <div id="modal2" class="modal">
-        <div class="modal-content custom-modal">
-            <span class="close">&times;</span>
-            <h2>Ticketing IT</h2>
-            
-            <p><strong>📆 Durée :</strong> Octobre 2023 - Maintenant (en continu)</p>
-            <p><strong>🎯 Objectif :</strong> Gérer et traiter les demandes d'assistance informatique au sein de l'entreprise.</p>
-            
-            <p><strong>🏢 Contexte professionnel :</strong> Mission réalisée en alternance au sein du service informatique. Responsabilité de la réception, du suivi et de la résolution des tickets incidents et demandes utilisateurs.</p>
-            
-            <div class="tech-icons">
-                <span class="tech" style="background-color: #217346; color: white;">Excel</span>
-            </div>
-            
-            <p><strong>💼 Responsabilités :</strong></p>
-            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
-                <li>Diagnostic et résolution des problèmes informatiques</li>
-                <li>Support utilisateur (niveau 1 et 2)</li>
-                <li>Gestion des priorités et suivi des SLA</li>
-                <li>Documentation des solutions pour référence future</li>
-                <li>Coordination avec les autres services pour les incidents complexes</li>
-            </ul>
-            
-            <div class="modal-buttons">
-                <button class="modal-btn" onclick="openProof('ticket-stats')">📄 Statistiques de tickets</button>
-                <button class="modal-btn" onclick="openProof('ticket-process')">📄 Processus de traitement</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal 3: Projet API Ville Lumière -->
-    <div id="modal3" class="modal">
-        <div class="modal-content custom-modal">
-            <span class="close">&times;</span>
-            <h2>Projet API : Ville Lumière (Ligue 1)</h2>
-        
-            <p><strong>📆 Durée :</strong> Septembre 2024 – Décembre 2024</p>
-        
-            <p><strong>🎯 Objectif :</strong> Créer une plateforme d'information sur la Ligue 1 en exploitant les données de l'<strong>API-FOOTBALL</strong>. L'objectif était d'afficher des infos actualisées sur les équipes, classements et résultats de match via une API externe, dans un site construit avec Django.</p>
-        
-            <p><strong>📦 Contexte :</strong> Projet d'équipe réalisé en 2ème année de BTS SIO SLAM. L'idée est née d'une passion commune pour le football. Le site permet d'explorer dynamiquement les données sportives de la Ligue 1 à travers une API, tout en apprenant à structurer un projet Django complet.</p>
-        
-            <div class="tech-icons">
-                <span class="tech html">HTML</span>
-                <span class="tech css">CSS</span>
-                <span class="tech js">JavaScript</span>
-                <span class="tech" style="background-color: #366B9A; color: white;">Python</span>
-                <span class="tech" style="background-color: #092E20; color: white;">Django</span>
-                <span class="tech" style="background-color: #FF4B4B; color: white;">API-FOOTBALL</span>
-            </div>
-        
-            <p><strong>⚙️ Fonctions principales :</strong></p>
-            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
-                <li>Affichage du <strong>classement en temps réel</strong> de la Ligue 1</li>
-                <li>Actualités et <strong>dernières infos</strong> football</li>
-                <li>Pages dédiées aux équipes (logo, statistiques, etc.)</li>
-                <li>Appels API pour récupérer les <strong>résultats de matchs</strong></li>
-                <li>Rendu dynamique des données avec Django + templates</li>
-            </ul>
-        
-            <div class="modal-buttons">
-                <button class="modal-btn" onclick="openProof('ville-code')">📄 Structure Django & API</button>
-                <button class="modal-btn" onclick="openProof('ville-api')">📄 Appels API & Données récupérées</button>
-                <button class="modal-btn" onclick="openProof('ville-affichage')">📄 Pages & affichage final</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal 4: Portfolio -->
-    <div id="modal4" class="modal">
-        <div class="modal-content custom-modal">
-            <span class="close">&times;</span>
-            <h2>Projet : Portfolio</h2>
-        
-            <p><strong>📆 Durée :</strong> Décembre 2024 – Avril 2025</p>
-            <p><strong>🎯 Objectif :</strong> Créer un site intenet personnel pour me présenter et présenter mes 2 ans de BTS SIO, a l'aide d'une page acceuil dans lequel je vais me présenter rapidement, mon parcours et mes compétences.
-            une page Entreprise, où je présente mon entreprise ainsi que mes missions, une page Réalisations, on retrouve mes projets réalisés, en entreprise et en formation. Une page veille technologie qui sera donc en rapport avec une de mes passions combiné à de l'informatique et où je vais récupérer des articles en rapport.
-        Pour finir une page bilan, où je m'exprimerais a propos des mes 2 ans de BTS SIO, mon ressenti etc...</p>
-        
-            <p><strong>🏢 Contexte :</strong> Réalisé dans le cadre du BTS SIO SLAM, ce portfolio est un projet personnel visant à présenter mes travaux réalisés en formation et en entreprise.</p>
-        
-            <div class="tech-icons">
-                <span class="tech html">HTML</span>
-                <span class="tech css">CSS</span>
-                <span class="tech js">JavaScript</span>
-            </div>
-        
-            <p><strong>Compétences acquises</strong></p>
-            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
-                <li><strong>Organiser son développement professionnel</strong>
-                    <ul>
-                        <li>Création de mon portfolio en citant mes compétences techniques et projets</li>
-                        <li>La mise en oeuvre d'une page de veille technologique</li>
-                    </ul>
-                </li>
-
-                <li><strong>Mettre à disposition des utilisateurs un service informatique</strong></li>
-                <ul>
-                    <li>Déploiement de mon portefolio grâce a Vercel et GitHub</li>
-                </ul>
-                
-                <li><strong>Développer la présence en ligne de l'organisation</strong>
-                    <ul>
-                        <li>Référencement avec un bon score SEO sur PageSpeed Insights</li>
-                    </ul>
-                </li>
-            </ul>
-        
-            <div class="modal-buttons">
-                <button class="modal-btn" onclick="openProof('referencement')">📄 Référencement</button>
-                <button class="modal-btn" onclick="openProof('lighthouse')">📄 Lighthouse SEO</button>
-                <button class="modal-btn" onclick="openProof('vercel')">📄 Déploiement Vercel</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal 5: Gestion des accès utilisateurs -->
-    <div id="modal5" class="modal">
-        <div class="modal-content custom-modal">
-            <span class="close">&times;</span>
-            <h2>Gestion des accès utilisateurs</h2>
-            
-            <p><strong>📆 Durée :</strong> Novembre 2024 - Maintenant (en continu)</p>
-            <p><strong>🎯 Objectif :</strong> Gérer les droits d'accès aux logiciels et applications pharmaceutiques de l'entreprise tout en assurant la conformité réglementaire.</p>
-            
-            <p><strong>🏢 Contexte professionnel :</strong> Mission confiée en alternance dans une entreprise pharmaceutique. Gestion des demandes d'accès, mise à jour des droits, et coordination avec les éditeurs de logiciels métiers.</p>
-            
-            <div class="tech-icons">
-                <span class="tech" style="background-color: #217346; color: white;">Excel</span>
-                <span class="tech" style="background-color: #0078D7; color: white;">Logiciels pharmaceutiques</span>
-            </div>
-            
-            <p><strong>🔐 Processus de gestion :</strong></p>
-            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
-                <li>Réception et validation des demandes d'accès</li>
-                <li>Configuration des profils utilisateurs selon les besoins métiers</li>
-                <li>Contrôle et audit des droits conformément aux exigences réglementaires</li>
-                <li>Documentation et traçabilité des accès</li>
-                <li>Gestion des départs et changements de poste</li>
-            </ul>
-            
-            <div class="modal-buttons">
-                <button class="modal-btn" onclick="openProof('acces-workflow')">📄 Workflow de gestion</button>
-                <button class="modal-btn" onclick="openProof('acces-audit')">📄 Rapport d'audit</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal 6: Notification Email - Automatisation -->
-    <div id="modal6" class="modal">
-        <div class="modal-content custom-modal">
-            <span class="close">&times;</span>
-            <h2>Notification Email automatisée</h2>
-            
-            <p><strong>📆 Durée :</strong> 24/03/2025 au 28/03/2025</p>
-            <p><strong>🎯 Objectif :</strong> Automatiser l'envoi de notifications par email lors de l'ajout de tickets dans un tableau Excel.</p>
-            
-            <p><strong>🏢 Contexte professionnel :</strong> Projet d'automatisation développé en entreprise pour améliorer le processus de suivi des tickets et réduire le temps de réponse aux demandes urgentes.</p>
-            
-            <div class="tech-icons">
-                <span class="tech" style="background-color: #0066FF; color: white;">Power Automate</span>
-                <span class="tech" style="background-color: #217346; color: white;">Excel</span>
-                <span class="tech" style="background-color: #0078D4; color: white;">Outlook</span>
-            </div>
-            
-            <p><strong>⚙️ Fonctionnement du script :</strong></p>
-            <ul style="text-align: left; max-width: 90%; margin: 0 auto;">
-                <li>Surveillance du fichier Excel contenant les tickets</li>
-                <li>Détection des nouveaux tickets et de leur priorité</li>
-                <li>Génération automatique d'emails personnalisés selon le type de ticket</li>
-                <li>Distribution aux personnes concernées en fonction du service</li>
-                <li>Archivage des notifications envoyées pour traçabilité</li>
-            </ul>
-            
-            <div class="modal-buttons">
-                <button class="modal-btn" onclick="openProof('notif-code')">📄 Flux Power Automate</button>
-                <button class="modal-btn" onclick="openProof('notif-resultat')">📄 Exemple de notification</button>
-            </div>
-        </div>
-    </div>
-</section>
     </main>
 
     <footer class="footer">
@@ -330,16 +102,9 @@
             <h2>Mentions légales</h2>
             <p><strong>Nom :</strong> Jeyron Jeyaraj</p>
             <p><strong>Hébergement :</strong> Ce site est hébergé par Vercel</p>
-            <p><strong>Contenus :</strong> Tous les textes, images et projets présents sur ce site sont partagés dans le
-                cadre d’un travail d’études, sans but commercial.</p>
+            <p><strong>Contenus :</strong> Projet d'études, sans but commercial.</p>
             <p><strong>Contact :</strong> jeyronjyj@gmail.com</p>
         </div>
     </div>
-    <div id="proofLightbox" class="proof-lightbox">
-        <span class="close-lightbox" onclick="closeProofImage()">&times;</span>
-        <img id="proofImage" src="" alt="Preuves screenshot">
-      </div>
-      
 </body>
-
 </html>
