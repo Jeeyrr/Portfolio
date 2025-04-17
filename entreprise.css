@@ -241,3 +241,71 @@ body {
 .close:hover {
     color: #fff;
 }
+@media screen and (max-width: 768px) {
+    .liens {
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px 0;
+    }
+  
+    .nav-link {
+      font-size: 18px;
+      padding: 8px 16px;
+      display: block;
+    }
+  
+    .SGS-container,
+    .labo-container,
+    .roles-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .sgs-image,
+    .labo-image {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .sgs-image img,
+    .labo-image img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+  
+    .sgs-texte h1 {
+      font-size: 30px;
+      margin-top: 20px;
+    }
+  
+    .labo-texte,
+    .roles-texte {
+      width: 90%;
+      font-size: 16px;
+      border-radius: 20px;
+    }
+  
+    .equipeinfo-image img {
+      width: 100%;
+      height: auto;
+    }
+  
+    iframe {
+      width: 90% !important;
+      height: 300px !important;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+  
+    .modal-content {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  

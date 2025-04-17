@@ -407,4 +407,62 @@ body {
     cursor: pointer;
     font-weight: bold;
   }
+  @media screen and (max-width: 768px) {
+    .liens {
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px 0;
+    }
+  
+    .nav-link {
+      font-size: 18px;
+      padding: 8px 16px;
+      display: block;
+    }
+  
+    .realisation-title h1 {
+      font-size: 28px;
+    }
+  
+    .filtre-btns {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .filtre-btns button {
+      width: 90%;
+      margin: 10px auto;
+      font-size: 16px;
+    }
+  
+    .realisation-container {
+      flex-direction: column;
+      padding: 10px;
+      gap: 20px;
+    }
+  
+    .realisation-card {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  
+    .realisation-card h2 {
+      font-size: 22px;
+    }
+  
+    .realisation-card p {
+      font-size: 14px;
+    }
+  
+    .modal-content {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+  }
   

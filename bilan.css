@@ -167,3 +167,51 @@ body {
 .close:hover {
     color: #fff;
 }
+@media screen and (max-width: 768px) {
+    .liens {
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px 0;
+    }
+  
+    .nav-link {
+      font-size: 18px;
+      padding: 8px 16px;
+      display: block;
+    }
+  
+    .bilan-title {
+      font-size: 2em;
+      margin-top: 30px;
+    }
+  
+    .bilan-groupe {
+      padding: 20px 0;
+      gap: 50px;
+    }
+  
+    .bilan-ligne {
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+  
+    .bilan-title2,
+    .bilan-texte {
+      width: 90%;
+      font-size: 16px;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+  
+    .modal-content {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  
