@@ -1,109 +1,152 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <title>GestEPI | Réalisation</title>
-    <link rel="stylesheet" href="gestepi.css">
-    <script src="gestepi.js" defer></script>
+  <meta charset="UTF-8">
+  <title>GestEPI | Réalisation</title>
+  <link rel="stylesheet" href="gestepi.css">
+  <script src="gestepi.js" defer></script>
 
 </head>
+
 <body>
-    <header class="header">
-        <nav class="liens">
-            <a href="index.html" class="nav-link">Accueil</a>
-            <a href="entreprise.html" class="nav-link">Entreprise</a>
-            <a href="realisation.html" class="nav-link">Réalisations</a>
-            <a href="veille.html" class="nav-link">Veille</a>
-            <a href="bilan.html" class="nav-link">Bilan</a>
-        </nav>
-    </header>
+  <header class="header">
+    <nav class="liens">
+      <a href="index.html" class="nav-link">Accueil</a>
+      <a href="entreprise.html" class="nav-link">Entreprise</a>
+      <a href="realisation.html" class="nav-link">Réalisations</a>
+      <a href="veille.html" class="nav-link">Veille</a>
+      <a href="bilan.html" class="nav-link">Bilan</a>
+    </nav>
+  </header>
 
-    <main>
-        <section class="realisation-container">
-            <h1>GestEPI</h1>
-            <p><strong>📆 Durée :</strong> 01/02/2025 au 15/04/2025</p>
-            <p><strong>🎯 Objectif :</strong> Développer une application de gestion de stocks et EPI pour une entreprise simulée.</p>
-            <p><strong>📦 Contexte :</strong> Projet réalisé en formation BTS SIO SLAM.</p>
+  <main>
+    <section class="realisation-container">
+      <h1>GestEPI</h1>
+      <p><strong>📆 Durée :</strong> 01/02/2025 au 15/04/2025</p>
+      <p><strong>🎯 Objectif :</strong> Le projet GestEPI a pour objectif de développer une application web permettant
+        de gérer efficacement les Équipements de Protection Individuelle (EPI) d’une entreprise spécialisée dans les
+        travaux en hauteur. L'application vise à remplacer le suivi manuel des EPI par un système numérique centralisé.
+        Elle permet d’enregistrer les équipements, planifier et suivre les contrôles périodiques, consulter l’historique
+        des vérifications et gérer les utilisateurs selon leur rôle (gestionnaire ou cordiste). Ce projet répond à des
+        enjeux de sécurité, de conformité et d’organisation du matériel.</p>
+      <p><strong>📦 Contexte :</strong>Le projet GestEPI, proposé dans le cadre du BTS SIO SLAM, vise à créer une
+        application web pour gérer les équipements de protection individuelle (EPI) d'une entreprise fictive, en
+        remplaçant le suivi papier par un système numérique.</p>
 
-            <div class="tech-icons">
-                <span class="tech" style="background-color:#61DAFB;color:#000;">React</span>
-                <span class="tech" style="background-color:#3178C6;color:white;">TypeScript</span>
-                <span class="tech" style="background-color:#00618A;color:white;">SQL</span>
-                <span class="tech" style="background-color:#68A063;color:white;">Node.js</span>
-                <span class="tech" style="background-color:#7383BF;color:white;">WAMP</span>
-                <span class="tech" style="background-color:#003545;color:white;">MariaDB</span>
-                <span class="tech" style="background-color:#CB3837;color:white;">npm</span>
-            </div>
-
-            <div class="action-buttons">
-                <a href="https://https://github.com/Jeeyrr/Portfolio" class="btn-action github">
-                  <span class="btn-icon">📂</span> Dépôt Git
-                </a>
-                <a href="consignes.html" class="btn-action consignes">
-                  <span class="btn-icon">📄</span> Consignes
-                </a>
-              </div>
-      
-              <div class="section-fonctionnalites">
-                <h2>Fonctionnalités</h2>
-                <p>Ce portfolio présente une structure claire et intuitive avec une navigation simplifiée permettant de découvrir mon parcours, mes compétences et mes réalisations. L'intégration d'une veille technologique automatisée facilite le partage des dernières tendances dans mon domaine d'expertise. La conception responsive assure une expérience utilisateur optimale sur tous les appareils.</p>
-              </div>
-      
-              <div class="section-competences">
-                <h2>Compétences acquises</h2>
-                
-                <div class="competence-item">
-                  <h3>Gérer le patrimoine informatique</h3>
-                  <p>Pour développer ce portfolio, j'ai mis en place une méthode de travail structurée en utilisant Git pour le versionnement de mon code. J'ai également suivi un planning précis pour respecter les échéances du projet. Cette expérience m'a permis d'améliorer ma gestion du temps et d'approfondir mes connaissances en développement web front-end.</p>
-                </div>
-                
-      
-              <div class="gallery-section">
-                  <h2>Fichiers joint</h2>
-                  <div class="gallery">
-                    <div class="gallery-item">
-                      <img src="images/preuve-lighthouse.png" alt="Capture d'écran page d'accueil" class="thumbnail" onclick="openLightbox(this)">
-                    </div>
-                    <div class="gallery-item">
-                      <img src="images/preuve-referencement.png" alt="Capture d'écran entreprise" class="thumbnail" onclick="openLightbox(this)">
-                    </div>
-                    <div class="gallery-item">
-                      <img src="images/preuve-vercel.png" alt="Capture d'écran réalisations" class="thumbnail" onclick="openLightbox(this)">
-                    </div>
-                    <div class="gallery-item">
-                      <img src="images/portfolio-4.jpg" alt="Capture d'écran veille" class="thumbnail" onclick="openLightbox(this)">
-                    </div>
-                    <div class="gallery-item">
-                      <img src="images/portfolio-5.jpg" alt="Capture d'écran bilan" class="thumbnail" onclick="openLightbox(this)">
-                    </div>
-                  </div>
-                </div>
-        
-                <div id="lightbox" class="lightbox">
-                  <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
-                  <img id="lightbox-img" class="lightbox-content">
-                </div>
-
-            <a class="btn-detail" href="realisation.html">⬅ Retour</a>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="footer-content">
-          <div class="footer-left">Jeyron Jeyaraj © 2025</div>
-          <button class="footer-legal-btn" onclick="openModal()">Mentions légales</button>
-        </div>
-      </footer>
-    
-      <div id="legalModal" class="modal">
-        <div class="modal-content">
-          <span class="close" onclick="closeModal()">&times;</span>
-          <h2>Mentions légales</h2>
-          <p><strong>Nom :</strong> Jeyron Jeyaraj</p>
-          <p><strong>Hébergement :</strong> Ce site est hébergé par Vercel</p>
-          <p><strong>Contenus :</strong> Travail d'études, sans but commercial. Les images générées par IA sont libres de droits.</p>
-          <p><strong>Contact :</strong> jeyronjyj@gmail.com</p>
-        </div>
+      <div class="tech-icons">
+        <span class="tech" style="background-color:#61DAFB;color:#000;">React</span>
+        <span class="tech" style="background-color:#3178C6;color:white;">TypeScript</span>
+        <span class="tech" style="background-color:#00618A;color:white;">SQL</span>
+        <span class="tech" style="background-color:#68A063;color:white;">Node.js</span>
+        <span class="tech" style="background-color:#7383BF;color:white;">WAMP</span>
+        <span class="tech" style="background-color:#003545;color:white;">MariaDB</span>
+        <span class="tech" style="background-color:#CB3837;color:white;">npm</span>
       </div>
+
+      <div class="action-buttons">
+        <a href="https://github.com/Jeeyrr/DEVOIR-ROMEO" class="btn-action github">
+          <span class="btn-icon">📂</span> Dépôt Git
+        </a>
+        <a href="https://romeogiorgio.notion.site/Contexte-GestEPI-1e4172b19af84fbd84f32f079ca9b921"
+          class="btn-action consignes">
+          <span class="btn-icon">📄</span> Consignes (réalisé par le professeur)
+        </a>
+      </div>
+
+      <div class="section-fonctionnalites">
+        <h2>Fonctionnalités</h2>
+        <p>L’application permet de suivre et gérer les Équipements de Protection Individuelle (EPI). On peut y
+          enregistrer des informations précises comme la marque, le modèle ou le numéro de série, ainsi que suivre les
+          dates importantes liées à chaque équipement. Les contrôles sont planifiés et archivés pour assurer le suivi de
+          l’état des EPI (fonctionnel, à réparer, hors service). Un système de rôles différencie les accès entre les
+          gestionnaires, admin et les utilisateurs simples, avec des droits adaptés à chacun.</p>
+      </div>
+
+      <div class="section-competences">
+        <h2>Compétences acquises</h2>
+
+        <div class="competence-item">
+          <h3>Gérer le patrimoine informatique</h3>
+          <p>Dans ce projet, j’ai appliqué la compétence Gérer le patrimoine informatique en créant et mettant en place
+            une base de données MariaDB pour assurer le suivi du matériel (EPI). J’ai structuré les tables pour
+            enregistrer les équipements et leur état, ce qui a permis de répondre aux besoins de gestion de
+            l'application.
+
+            J’ai aussi utilisé GitHub pour suivre l’évolution du code, travailler en toute sécurité et garder un
+            historique des changements, ce qui facilite le travail.</p>
+        </div>
+
+
+        <div class="gallery-section">
+          <h2>Fichiers joint</h2>
+          <div class="gallery">
+            <div class="gallery-item">
+              <img src="images/bdd gestepi.png" alt="Base de donnée" class="thumbnail"
+                onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+              <img src="images/github gestepi.png" alt="Github" class="thumbnail"
+                onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+              <img src="images/connexion gestepi.png" alt="connexion" class="thumbnail"
+                onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+              <img src="images/liste epi gestepi.png" alt="liste epi" class="thumbnail"
+                onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+              <img src="images/ajout epi gestepi.png" alt="ajout epi" class="thumbnail"
+                onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+              <img src="images/afficher les controles des epi.png" alt="afficher les controles des epi" class="thumbnail"
+                onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+              <img src="images/controle d'un epi.png" alt="controle d'un epi" class="thumbnail"
+                onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+              <img src="images/ajout controle a une epi.png" alt="ajout controle a une epi" class="thumbnail"
+                onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+              <img src="images/gestion utilisateur gestepi.png" alt="gestion utilisateur gestepi" class="thumbnail"
+                onclick="openLightbox(this)">
+            </div>
+          </div>
+        </div>
+
+        <div id="lightbox" class="lightbox">
+          <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+          <img id="lightbox-img" class="lightbox-content">
+        </div>
+
+        <a class="btn-detail" href="realisation.html">⬅ Retour</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">Jeyron Jeyaraj © 2025</div>
+      <button class="footer-legal-btn" onclick="openModal()">Mentions légales</button>
+    </div>
+  </footer>
+
+  <div id="legalModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>Mentions légales</h2>
+      <p><strong>Nom :</strong> Jeyron Jeyaraj</p>
+      <p><strong>Hébergement :</strong> Ce site est hébergé par Vercel</p>
+      <p><strong>Contenus :</strong> Travail d'études, sans but commercial. Les images générées par IA sont libres de
+        droits.</p>
+      <p><strong>Contact :</strong> jeyronjyj@gmail.com</p>
+    </div>
+  </div>
 </body>
+
 </html>
