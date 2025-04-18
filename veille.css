@@ -196,7 +196,7 @@ body {
     background-color: #942929;
     transform: scale(1.05);
 }
-/* Footer */
+
 .footer {
     background-color: rgba(0, 0, 0, 0.7);
     border-top: 1px solid #b356f1;
@@ -233,7 +233,7 @@ body {
     color: #fff;
 }
 
-/* Modal */
+
 .modal {
     display: none;
     position: fixed;

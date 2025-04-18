@@ -1,4 +1,4 @@
-/* portfolio.css - Style dédié pour la page portfolio */
+
 body {
     margin: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(85, 1, 153, 0.7)),
@@ -10,7 +10,7 @@ body {
     flex-direction: column;
   }
   
-  /* Header et Navigation */
+
   .header, .liens {
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ body {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
   }
   
-  /* Main Content */
+
   main {
     flex: 1;
     padding: 40px 0;
@@ -56,7 +56,7 @@ body {
     max-width: 1200px;
   }
   
-  /* Style spécifique pour la carte portfolio */
+
   .realisation-card {
     background: rgba(213, 166, 247, 0.9);
     border-radius: 15px;
@@ -101,7 +101,7 @@ body {
     font-weight: bold;
   }
   
-  /* Tech icons */
+
   .tech-icons {
     display: flex;
     justify-content: center;
@@ -131,7 +131,7 @@ body {
     color: #333;
   }
   
-  /* Boutons d'action (GitHub et Consignes) */
+
   .action-buttons {
     display: flex;
     justify-content: center;
@@ -170,7 +170,7 @@ body {
     background: linear-gradient(to right, #4a004a, #7a2ac7);
   }
   
-  /* Sections Fonctionnalités et Compétences */
+
   .section-fonctionnalites,
   .section-competences {
     background-color: rgba(255, 255, 255, 0.3);
@@ -207,7 +207,7 @@ body {
     text-align: justify;
   }
   
-  /* Gallery styling */
+
   .gallery-section {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
@@ -246,7 +246,7 @@ body {
     transition: transform 0.3s;
   }
   
-  /* Lightbox styling */
+
   .lightbox {
     display: none;
     position: fixed;
@@ -285,7 +285,6 @@ body {
     color: #b356f1;
   }
   
-  /* List styling */
   .realisation-card ul {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
@@ -308,7 +307,7 @@ body {
     margin-right: 10px;
   }
   
-  /* Button styling */
+
   .btn-detail {
     display: inline-block;
     padding: 12px 25px;
@@ -328,7 +327,7 @@ body {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
   }
   
-  /* Footer */
+
   .footer {
     background-color: rgba(0, 0, 0, 0.7);
     border-top: 1px solid #b356f1;
@@ -349,7 +348,7 @@ body {
     font-size: 16px;
   }
   
-  /* Responsive design */
+
   @media (max-width: 768px) {
     .liens {
       flex-direction: column;
@@ -385,7 +384,7 @@ body {
       height: 80px;
     }
   }
-   /* Footer */
+
    .footer {
     background-color: rgba(0, 0, 0, 0.7);
     border-top: 1px solid #b356f1;
@@ -422,7 +421,7 @@ body {
     color: #fff;
 }
 
-/* Modal */
+
 .modal {
     display: none;
     position: fixed;

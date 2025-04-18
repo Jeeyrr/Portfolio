@@ -39,7 +39,7 @@ body {
 
 .realisation-container {
     display: flex;
-    flex-wrap: wrap;         /* <-- clé pour éviter les trous */
+    flex-wrap: wrap;        
     justify-content: center;
     gap: 20px;
     padding: 20px;
@@ -186,7 +186,7 @@ body {
     color: #4a004a;
     box-shadow: 0 0 10px #f1bfff;
 }
-/* Footer */
+
 .footer {
     background-color: rgba(0, 0, 0, 0.7);
     border-top: 1px solid #b356f1;
@@ -223,7 +223,7 @@ body {
     color: #fff;
 }
 
-/* Modal */
+
 .modal {
     display: none;
     position: fixed;
@@ -262,7 +262,7 @@ body {
 .close:hover {
     color: #fff;
 }
-/* ===== Modal stylé pour le portfolio ===== */
+
 
 .custom-modal {
     background-color: #1a1a1a;
@@ -281,7 +281,7 @@ body {
     margin: 20px 0;
   }
   
-  /* Styles de base pour toutes les icônes technologiques */
+
 .tech {
     display: inline-block;
     padding: 8px 15px;
@@ -297,7 +297,7 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   }
   
-  /* Styles spécifiques pour certaines technologies (déjà définis) */
+
   .tech.html {
     background-color: #e34c26;
     color: white;
@@ -313,7 +313,7 @@ body {
     color: #000;
   }
   
-  /* Styles pour les nouvelles technologies */
+
   .tech.python {
     background-color: #366B9A;
     color: white;

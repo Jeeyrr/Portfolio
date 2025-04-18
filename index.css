@@ -6,7 +6,7 @@ body {
   color: #333;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Hauteur minimum de la fenêtre visible */
+  min-height: 100vh; 
 }
 
 main {
@@ -220,10 +220,10 @@ main {
   align-items: center;
   justify-content: center;
   background-color: #1f1f1f;
-  padding: 50px 0; /* Réduire le padding */
+  padding: 50px 0; 
   font-family: Jost;
-  margin-top: 0; /* Supprimer la marge du haut */
-  margin-bottom: 0; /* S'assurer qu'il n'y a pas de marge en bas */
+  margin-top: 0;
+  margin-bottom: 0; 
 }
 .design-section h2 {
   text-align: center;
@@ -319,12 +319,12 @@ main {
 #about-me-btn:hover {
     background-color: #7a1db8;
 }
-/* Footer */
+
 .footer {
   background-color: rgba(0, 0, 0, 0.7);
   border-top: 1px solid #b356f1;
   padding: 20px 40px;
-  margin-top: auto; /* Important: pousse le footer vers le bas */
+  margin-top: auto; 
 }
 
 .footer-content {
@@ -356,7 +356,7 @@ main {
   color: #fff;
 }
 
-/* Modal */
+
 .modal {
   display: none;
   position: fixed;

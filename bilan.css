@@ -7,7 +7,7 @@ body {
     color: #fff;
 }
 
-/* HEADER */
+
 .header, .liens {
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ body {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* TITRE PRINCIPAL */
+
 .bilan-title {
     text-align: center;
     color: #b356f1;
@@ -48,7 +48,7 @@ body {
     margin-top: 60px;
 }
 
-/* SECTION BILAN */
+
 .bilan-groupe {
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@ body {
     box-shadow: 0 0 10px rgba(179, 86, 241, 0.3);
     border-radius: 25px;
 }
-/* Footer */
+
 .footer {
     background-color: rgba(0, 0, 0, 0.7);
     border-top: 1px solid #b356f1;
@@ -128,7 +128,7 @@ body {
     color: #fff;
 }
 
-/* Modal */
+
 .modal {
     display: none;
     position: fixed;

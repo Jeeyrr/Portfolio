@@ -1,4 +1,4 @@
-// Fonction pour ouvrir le lightbox avec l'image cliquée
+// ouvrir le lightbox avec l'image cliquée
 function openLightbox(img) {
     const lightbox = document.getElementById("lightbox");
     const lightboxImg = document.getElementById("lightbox-img");
@@ -6,7 +6,7 @@ function openLightbox(img) {
     lightbox.style.display = "flex";
   }
   
-  // Fonction pour fermer le lightbox
+  //fermer le lightbox
   function closeLightbox() {
     document.getElementById("lightbox").style.display = "none";
   }
